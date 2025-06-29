@@ -1,21 +1,26 @@
 #!/usr/bin/env python3
 """
-Example Usage of Metalloprotein Binding Efficiency Prediction Pipeline
+Basic Example Usage for Metalloprotein Binding Efficiency Prediction Pipeline
 
-This script demonstrates how to use the complete pipeline for predicting
-metal ion binding efficiency to proteins.
+This script demonstrates the basic pipeline with fundamental ODE solving and
+binding site identification capabilities.
 """
 
 import os
 import sys
 import numpy as np
 import matplotlib.pyplot as plt
+from pathlib import Path
+import warnings
+warnings.filterwarnings('ignore')
 
 # Add src to path
 sys.path.append(os.path.join(os.path.dirname(__file__), 'src'))
 
+# Import basic modules
+from src.basic.main import MetalloproteinPipeline
+from src.basic.binding_kinetics import BindingKinetics
 from src.pdb_processor import PDBProcessor
-from src.binding_kinetics import BindingKinetics
 from src.brownian_simulation import BrownianSimulation
 
 def create_example_pdb():

@@ -1,0 +1,321 @@
+# Enhanced Configuration for Metalloprotein Binding Efficiency Prediction Pipeline
+
+# =============================================================================
+# ENVIRONMENTAL PARAMETERS
+# =============================================================================
+
+environmental_conditions:
+  # Temperature settings
+  temperature:
+    initial: 298.15  # Kelvin (25°C)
+    range: [273.15, 373.15]  # 0°C to 100°C
+    gradient: false  # Enable temperature gradients
+    heat_transfer:
+      thermal_conductivity: 0.6  # W/m·K (water)
+      specific_heat: 4186  # J/kg·K (water)
+      density: 997  # kg/m³ (water)
+  
+  # pH settings
+  pH:
+    initial: 7.0
+    range: [4.0, 10.0]
+    buffer_system: "phosphate"  # Options: phosphate, tris, hepes
+    buffer_concentration: 0.1  # M
+    proton_diffusion_coeff: 9.3e-9  # m²/s
+  
+  # Pressure settings
+  pressure:
+    initial: 1.0  # atm
+    range: [0.1, 100.0]  # atm
+    compressibility:
+      thermal: 2.1e-4  # 1/K
+      chemical: 1e-6  # m³/mol
+  
+  # Redox potential settings
+  redox_potential:
+    initial: 0.0  # V vs SHE
+    range: [-0.5, 0.5]  # V
+    buffer_system: "glutathione"  # Options: glutathione, cysteine, dithiothreitol
+    buffer_concentration: 1e-3  # M
+    redox_diffusion_coeff: 1e-9  # m²/s
+
+# =============================================================================
+# SPATIAL DISCRETIZATION
+# =============================================================================
+
+spatial_discretization:
+  # Reaction chamber dimensions
+  chamber:
+    dimensions: [10e-6, 10e-6, 10e-6]  # 10×10×10 μm³
+    grid_size: [10, 10, 10]  # 1000 cubes total
+    boundary_conditions: "periodic"  # Options: periodic, reflective, absorbing
+  
+  # Cube properties
+  cube:
+    volume: 1e-18  # m³ (1 μm³)
+    diffusion_time_step: 1e-12  # s (1 ps)
+    reaction_time_step: 1e-9  # s (1 ns)
+    coupling_time_step: 1e-6  # s (1 μs)
+
+# =============================================================================
+# METAL ION PROPERTIES
+# =============================================================================
+
+metal_ions:
+  Zn2+:
+    radius: 0.74e-10  # m
+    mass: 65.38e-27  # kg
+    charge: 2
+    diffusion_coeff_0: 7.0e-10  # m²/s at 298K
+    activation_energy_diffusion: 15e3  # J/mol
+    activation_volume_diffusion: 1e-6  # m³/mol
+    binding_enthalpy: -50e3  # J/mol
+    pKa_effect: 0.5  # pH dependence factor
+    redox_sensitivity: 0.1  # V^-1
+    
+  Cu2+:
+    radius: 0.73e-10
+    mass: 63.55e-27
+    charge: 2
+    diffusion_coeff_0: 7.1e-10
+    activation_energy_diffusion: 16e3
+    activation_volume_diffusion: 1.2e-6
+    binding_enthalpy: -60e3
+    pKa_effect: 0.8
+    redox_sensitivity: 0.2
+    
+  Fe2+:
+    radius: 0.78e-10
+    mass: 55.85e-27
+    charge: 2
+    diffusion_coeff_0: 7.2e-10
+    activation_energy_diffusion: 14e3
+    activation_volume_diffusion: 0.8e-6
+    binding_enthalpy: -45e3
+    pKa_effect: 0.3
+    redox_sensitivity: 0.15
+    
+  Mg2+:
+    radius: 0.72e-10
+    mass: 24.31e-27
+    charge: 2
+    diffusion_coeff_0: 7.0e-10
+    activation_energy_diffusion: 13e3
+    activation_volume_diffusion: 0.6e-6
+    binding_enthalpy: -30e3
+    pKa_effect: 0.1
+    redox_sensitivity: 0.05
+    
+  Ca2+:
+    radius: 1.00e-10
+    mass: 40.08e-27
+    charge: 2
+    diffusion_coeff_0: 7.9e-10
+    activation_energy_diffusion: 12e3
+    activation_volume_diffusion: 0.5e-6
+    binding_enthalpy: -25e3
+    pKa_effect: 0.05
+    redox_sensitivity: 0.02
+    
+  Mn2+:
+    radius: 0.83e-10
+    mass: 54.94e-27
+    charge: 2
+    diffusion_coeff_0: 6.9e-10
+    activation_energy_diffusion: 15e3
+    activation_volume_diffusion: 0.9e-6
+    binding_enthalpy: -40e3
+    pKa_effect: 0.4
+    redox_sensitivity: 0.12
+
+# =============================================================================
+# BINDING SITE IDENTIFICATION ALGORITHMS
+# =============================================================================
+
+binding_site_algorithms:
+  # Algorithm weights for consensus scoring
+  weights:
+    MetalNet: 0.3
+    Metal3D: 0.25
+    bindEmbed21: 0.25
+    AlphaFill: 0.2
+  
+  # MetalNet settings
+  MetalNet:
+    distance_threshold: 3.0  # Å
+    confidence_threshold: 0.7
+    use_network_clustering: true
+    ched_pair_analysis: true
+    
+  # Metal3D settings
+  Metal3D:
+    resolution: 1.0  # Å
+    confidence_threshold: 0.6
+    use_geometric_features: true
+    
+  # bindEmbed21 settings
+  bindEmbed21:
+    embedding_dimension: 21
+    sequence_window: 15
+    confidence_threshold: 0.5
+    
+  # AlphaFill settings
+  AlphaFill:
+    fill_ligands: true
+    confidence_threshold: 0.8
+    use_alphafold_predictions: true
+
+# =============================================================================
+# MESPEUS DATABASE INTEGRATION
+# =============================================================================
+
+mespeus_integration:
+  enabled: true
+  database_url: "http://mespeus.nchu.edu.tw/"
+  similarity_threshold: 0.7
+  max_results: 100
+  transfer_binding_sites: true
+  use_experimental_data: true
+
+# =============================================================================
+# MACHINE LEARNING MODELS
+# =============================================================================
+
+machine_learning:
+  # CHED Network Analysis
+  ched_network:
+    enabled: true
+    distance_threshold: 8.0  # Å
+    clustering_algorithm: "hierarchical"  # Options: hierarchical, kmeans, dbscan
+    motif_database_size: 1000
+    
+  # Neural Network for Binding Affinity
+  neural_network:
+    architecture: "transformer"  # Options: cnn, lstm, transformer, graph_neural_net
+    hidden_layers: [512, 256, 128, 64]
+    dropout_rate: 0.2
+    learning_rate: 1e-4
+    batch_size: 32
+    epochs: 100
+    
+  # Training Data
+  training:
+    validation_split: 0.2
+    test_split: 0.1
+    cross_validation_folds: 5
+    data_augmentation: true
+
+# =============================================================================
+# VISUALIZATION SETTINGS
+# =============================================================================
+
+visualization:
+  # PyMOL Integration
+  pymol:
+    enabled: true
+    show_binding_sites: true
+    show_environmental_gradients: true
+    animation_frames: 100
+    output_format: "png"  # Options: png, jpg, tiff, pse
+    
+  # RF Diffusion Integration
+  rf_diffusion:
+    enabled: true
+    diffusion_steps: 1000
+    noise_schedule: "linear"  # Options: linear, cosine, sigmoid
+    guidance_scale: 1.0
+    
+  # Environmental Parameter Mapping
+  environmental_mapping:
+    temperature_colormap: "hot"  # Options: hot, cool, plasma, viridis
+    ph_colormap: "RdYlBu_r"
+    redox_colormap: "RdBu"
+    pressure_colormap: "Blues"
+    
+  # Output Settings
+  output:
+    save_plots: true
+    save_animations: true
+    save_3d_structures: true
+    resolution: [1920, 1080]
+    dpi: 300
+
+# =============================================================================
+# COMPUTATIONAL SETTINGS
+# =============================================================================
+
+computational:
+  # Parallel Computing
+  parallel:
+    enabled: true
+    num_processes: 4
+    chunk_size: 250  # cubes per process
+    use_gpu: false
+    
+  # Memory Management
+  memory:
+    sparse_matrices: true
+    compression: true
+    max_memory_usage: "8GB"
+    
+  # Time Integration
+  time_integration:
+    method: "IMEX"  # Options: explicit, implicit, IMEX
+    adaptive_timestep: true
+    max_timestep: 1e-6
+    min_timestep: 1e-12
+    tolerance: 1e-6
+    
+  # Convergence Criteria
+  convergence:
+    relative_tolerance: 1e-6
+    absolute_tolerance: 1e-9
+    max_iterations: 1000
+    check_frequency: 10
+
+# =============================================================================
+# VALIDATION AND TESTING
+# =============================================================================
+
+validation:
+  # Experimental Data Sources
+  experimental_data:
+    binding_constants: true
+    temperature_dependence: true
+    ph_dependence: true
+    pressure_dependence: false  # Limited data available
+    
+  # Cross-Validation
+  cross_validation:
+    method: "k_fold"  # Options: k_fold, leave_one_out, stratified
+    folds: 5
+    stratified: true
+    
+  # Performance Metrics
+  metrics:
+    binding_site_prediction: ["precision", "recall", "f1_score"]
+    binding_efficiency: ["mae", "rmse", "r2_score"]
+    environmental_dependence: ["correlation", "slope_error"]
+
+# =============================================================================
+# OUTPUT AND LOGGING
+# =============================================================================
+
+output:
+  # File Formats
+  formats:
+    results: "json"  # Options: json, hdf5, pickle
+    plots: "png"  # Options: png, pdf, svg
+    structures: "pdb"  # Options: pdb, cif, xyz
+    
+  # Logging
+  logging:
+    level: "INFO"  # Options: DEBUG, INFO, WARNING, ERROR
+    save_logs: true
+    log_file: "metalloprotein_pipeline.log"
+    
+  # Results Storage
+  results:
+    save_intermediate: true
+    compression: true
+    backup: true 
