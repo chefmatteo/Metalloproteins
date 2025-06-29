@@ -1,0 +1,48 @@
+# Configuration file for Metalloprotein Binding Efficiency Prediction Pipeline
+
+# Environmental conditions
+temperature: 298.15  # Temperature in Kelvin (25°C)
+pressure: 1.0       # Pressure in atm
+viscosity: 1e-3     # Solvent viscosity in Pa·s (water at 25°C)
+
+# Simulation parameters
+box_size: 100e-9    # Simulation box size in meters
+simulation_time: 1e-9  # Brownian motion simulation time in seconds
+n_ions: 100         # Number of ions to simulate
+
+# Metal ions to analyze
+metal_ions:
+  - Zn2+
+  - Cu2+
+  - Fe2+
+  - Mg2+
+  - Ca2+
+  - Mn2+
+
+# Initial concentrations (in Molar)
+initial_concentrations:
+  Zn2+: 1e-6
+  Cu2+: 1e-6
+  Fe2+: 1e-6
+  Mg2+: 1e-6
+  Ca2+: 1e-6
+  Mn2+: 1e-6
+
+# Binding site identification parameters
+binding_site_params:
+  distance_threshold: 3.0  # Ångstroms
+  min_coordination: 2      # Minimum coordinating groups
+
+# ODE solver parameters
+ode_params:
+  time_span: [0, 1000]     # seconds
+  method: "RK45"           # ODE solver method
+  rtol: 1e-6              # Relative tolerance
+  atol: 1e-8              # Absolute tolerance
+
+# Output parameters
+output_params:
+  save_plots: true
+  save_trajectories: false
+  plot_format: "png"
+  dpi: 300 
