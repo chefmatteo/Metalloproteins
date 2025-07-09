@@ -1,0 +1,3209 @@
+Binding Site Analysis Results
+==================================================
+
+Binding Site 1:
+  Residue: GLU 2
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 17
+  Center coordinates: [ 4.425   5.1735 -9.6555]
+  Nearby ligands: 17
+
+Binding Site 2:
+  Residue: CYS 5
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [  4.594  -6.368 -15.307]
+  Nearby ligands: 19
+
+Binding Site 3:
+  Residue: CYS 7
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [  3.045  -7.143 -20.286]
+  Nearby ligands: 19
+
+Binding Site 4:
+  Residue: ASP 9
+  Coordinating atoms: ['OD1', 'OD2']
+  Coordination number: 56
+  Center coordinates: [ -2.1265   0.425  -20.2975]
+  Nearby ligands: 56
+
+Binding Site 5:
+  Residue: CYS 10
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [  0.731  -5.615 -15.704]
+  Nearby ligands: 19
+
+Binding Site 6:
+  Residue: HIS 11
+  Coordinating atoms: ['ND1', 'NE2']
+  Coordination number: 26
+  Center coordinates: [ -1.448    0.647  -13.4785]
+  Nearby ligands: 26
+
+Binding Site 7:
+  Residue: CYS 12
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [ -1.241  -5.918 -12.019]
+  Nearby ligands: 19
+
+Binding Site 8:
+  Residue: ASP 15
+  Coordinating atoms: ['OD1', 'OD2']
+  Coordination number: 44
+  Center coordinates: [ 4.2495003 -8.242001  -3.152    ]
+  Nearby ligands: 44
+
+Binding Site 9:
+  Residue: GLU 17
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 28
+  Center coordinates: [ 10.1115   -12.316999   2.0225  ]
+  Nearby ligands: 28
+
+Binding Site 10:
+  Residue: HIS 22
+  Coordinating atoms: ['ND1', 'NE2']
+  Coordination number: 75
+  Center coordinates: [ 12.304501 -14.6695   -18.537498]
+  Nearby ligands: 75
+
+Binding Site 11:
+  Residue: ASP 23
+  Coordinating atoms: ['OD1', 'OD2']
+  Coordination number: 46
+  Center coordinates: [ 16.7535  -9.3195 -21.841 ]
+  Nearby ligands: 46
+
+Binding Site 12:
+  Residue: GLU 25
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 59
+  Center coordinates: [ 12.091     -4.4      -19.536999]
+  Nearby ligands: 59
+
+Binding Site 13:
+  Residue: CYS 28
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [  1.842  -8.506 -13.037]
+  Nearby ligands: 19
+
+Binding Site 14:
+  Residue: CYS 32
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [  2.329  -9.175 -16.967]
+  Nearby ligands: 19
+
+Binding Site 15:
+  Residue: GLU 34
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 59
+  Center coordinates: [ 10.002    -17.3335   -20.768501]
+  Nearby ligands: 59
+
+Binding Site 16:
+  Residue: HIS 36
+  Coordinating atoms: ['ND1', 'NE2']
+  Coordination number: 76
+  Center coordinates: [  0.69449997 -11.6665     -19.980999  ]
+  Nearby ligands: 76
+
+Binding Site 17:
+  Residue: GLU 40
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 63
+  Center coordinates: [ -0.0865   -18.366001 -15.8335  ]
+  Nearby ligands: 63
+
+Binding Site 18:
+  Residue: CYS 42
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [ -1.847  -8.719 -15.141]
+  Nearby ligands: 19
+
+Binding Site 19:
+  Residue: ASP 46
+  Coordinating atoms: ['OD1', 'OD2']
+  Coordination number: 25
+  Center coordinates: [-10.634001  -3.098    -14.905001]
+  Nearby ligands: 25
+
+Binding Site 20:
+  Residue: CYS 47
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [ -3.082  -4.896 -16.43 ]
+  Nearby ligands: 19
+
+Binding Site 21:
+  Residue: HIS 48
+  Coordinating atoms: ['ND1', 'NE2']
+  Coordination number: 58
+  Center coordinates: [ -9.054     -3.414    -19.967499]
+  Nearby ligands: 58
+
+Binding Site 22:
+  Residue: CYS 49
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [ -0.93   -7.416 -18.938]
+  Nearby ligands: 19
+
+Binding Site 23:
+  Residue: GLU 50
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 58
+  Center coordinates: [  2.593   -8.4845 -24.6745]
+  Nearby ligands: 58
+
+Binding Site 24:
+  Residue: GLU 2
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 28
+  Center coordinates: [ 5.328   4.4385 -6.3545]
+  Nearby ligands: 28
+
+Binding Site 25:
+  Residue: CYS 5
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [  4.823  -6.25  -15.492]
+  Nearby ligands: 19
+
+Binding Site 26:
+  Residue: CYS 7
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [  3.031  -7.015 -20.315]
+  Nearby ligands: 19
+
+Binding Site 27:
+  Residue: ASP 9
+  Coordinating atoms: ['OD1', 'OD2']
+  Coordination number: 51
+  Center coordinates: [ -2.16    0.306 -19.43 ]
+  Nearby ligands: 51
+
+Binding Site 28:
+  Residue: CYS 10
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [  0.929  -5.564 -15.78 ]
+  Nearby ligands: 19
+
+Binding Site 29:
+  Residue: HIS 11
+  Coordinating atoms: ['ND1', 'NE2']
+  Coordination number: 27
+  Center coordinates: [ -0.3375   1.5125 -15.406 ]
+  Nearby ligands: 27
+
+Binding Site 30:
+  Residue: CYS 12
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [ -0.995  -5.789 -12.04 ]
+  Nearby ligands: 19
+
+Binding Site 31:
+  Residue: ASP 15
+  Coordinating atoms: ['OD1', 'OD2']
+  Coordination number: 24
+  Center coordinates: [ 7.554     -7.8725004 -1.559    ]
+  Nearby ligands: 24
+
+Binding Site 32:
+  Residue: GLU 17
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 40
+  Center coordinates: [  9.596001 -11.453501   1.8495  ]
+  Nearby ligands: 40
+
+Binding Site 33:
+  Residue: HIS 22
+  Coordinating atoms: ['ND1', 'NE2']
+  Coordination number: 71
+  Center coordinates: [ 12.124001 -15.5465   -18.2845  ]
+  Nearby ligands: 71
+
+Binding Site 34:
+  Residue: ASP 23
+  Coordinating atoms: ['OD1', 'OD2']
+  Coordination number: 60
+  Center coordinates: [ 15.1445  -9.8475 -22.31  ]
+  Nearby ligands: 60
+
+Binding Site 35:
+  Residue: GLU 25
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 58
+  Center coordinates: [ 12.351      -5.0024996 -20.143501 ]
+  Nearby ligands: 58
+
+Binding Site 36:
+  Residue: CYS 28
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [  2.125  -8.395 -13.103]
+  Nearby ligands: 19
+
+Binding Site 37:
+  Residue: CYS 32
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [  2.493  -9.136 -17.031]
+  Nearby ligands: 19
+
+Binding Site 38:
+  Residue: GLU 34
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 59
+  Center coordinates: [  9.370501 -18.031    -20.4915  ]
+  Nearby ligands: 59
+
+Binding Site 39:
+  Residue: HIS 36
+  Coordinating atoms: ['ND1', 'NE2']
+  Coordination number: 76
+  Center coordinates: [  0.7845   -11.562    -20.126999]
+  Nearby ligands: 76
+
+Binding Site 40:
+  Residue: GLU 40
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 50
+  Center coordinates: [ -0.4785   -19.905499 -17.423   ]
+  Nearby ligands: 50
+
+Binding Site 41:
+  Residue: CYS 42
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [ -1.63   -8.677 -15.095]
+  Nearby ligands: 19
+
+Binding Site 42:
+  Residue: ASP 46
+  Coordinating atoms: ['OD1', 'OD2']
+  Coordination number: 35
+  Center coordinates: [ -9.939501  -4.262    -11.17    ]
+  Nearby ligands: 35
+
+Binding Site 43:
+  Residue: CYS 47
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [ -2.914  -4.846 -16.397]
+  Nearby ligands: 19
+
+Binding Site 44:
+  Residue: HIS 48
+  Coordinating atoms: ['ND1', 'NE2']
+  Coordination number: 57
+  Center coordinates: [ -9.3675    -4.1925   -19.255001]
+  Nearby ligands: 57
+
+Binding Site 45:
+  Residue: CYS 49
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [ -0.873  -7.383 -18.886]
+  Nearby ligands: 19
+
+Binding Site 46:
+  Residue: GLU 50
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 64
+  Center coordinates: [  2.042     -9.2785   -25.092999]
+  Nearby ligands: 64
+
+Binding Site 47:
+  Residue: GLU 2
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 30
+  Center coordinates: [ 4.732      4.1715    -6.7755003]
+  Nearby ligands: 30
+
+Binding Site 48:
+  Residue: CYS 5
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [  4.792  -6.375 -15.283]
+  Nearby ligands: 19
+
+Binding Site 49:
+  Residue: CYS 7
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [  3.183  -7.147 -20.151]
+  Nearby ligands: 19
+
+Binding Site 50:
+  Residue: ASP 9
+  Coordinating atoms: ['OD1', 'OD2']
+  Coordination number: 58
+  Center coordinates: [ -2.362       -0.14249998 -21.1505    ]
+  Nearby ligands: 58
+
+Binding Site 51:
+  Residue: CYS 10
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [  0.925  -5.611 -15.616]
+  Nearby ligands: 19
+
+Binding Site 52:
+  Residue: HIS 11
+  Coordinating atoms: ['ND1', 'NE2']
+  Coordination number: 20
+  Center coordinates: [-2.6754999e+00  1.2999982e-02 -1.6815500e+01]
+  Nearby ligands: 20
+
+Binding Site 53:
+  Residue: CYS 12
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [ -1.226  -5.992 -12.025]
+  Nearby ligands: 19
+
+Binding Site 54:
+  Residue: ASP 15
+  Coordinating atoms: ['OD1', 'OD2']
+  Coordination number: 48
+  Center coordinates: [ 4.8715 -7.646  -3.4445]
+  Nearby ligands: 48
+
+Binding Site 55:
+  Residue: GLU 17
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 9
+  Center coordinates: [11.594999 -7.065    -0.6935  ]
+  Nearby ligands: 9
+
+Binding Site 56:
+  Residue: HIS 22
+  Coordinating atoms: ['ND1', 'NE2']
+  Coordination number: 74
+  Center coordinates: [ 13.0125 -14.57   -19.1695]
+  Nearby ligands: 74
+
+Binding Site 57:
+  Residue: ASP 23
+  Coordinating atoms: ['OD1', 'OD2']
+  Coordination number: 50
+  Center coordinates: [ 14.1285   -11.069    -21.768501]
+  Nearby ligands: 50
+
+Binding Site 58:
+  Residue: GLU 25
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 62
+  Center coordinates: [ 12.6075  -5.0015 -19.941 ]
+  Nearby ligands: 62
+
+Binding Site 59:
+  Residue: CYS 28
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [  2.015  -8.5   -12.956]
+  Nearby ligands: 19
+
+Binding Site 60:
+  Residue: CYS 32
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [  2.441  -9.21  -16.884]
+  Nearby ligands: 19
+
+Binding Site 61:
+  Residue: GLU 34
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 58
+  Center coordinates: [  9.674  -17.723  -20.7485]
+  Nearby ligands: 58
+
+Binding Site 62:
+  Residue: HIS 36
+  Coordinating atoms: ['ND1', 'NE2']
+  Coordination number: 76
+  Center coordinates: [  0.72150004 -11.594999   -19.9865    ]
+  Nearby ligands: 76
+
+Binding Site 63:
+  Residue: GLU 40
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 60
+  Center coordinates: [ -0.4945   -19.523499 -16.4665  ]
+  Nearby ligands: 60
+
+Binding Site 64:
+  Residue: CYS 42
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [ -1.692  -8.703 -15.066]
+  Nearby ligands: 19
+
+Binding Site 65:
+  Residue: ASP 46
+  Coordinating atoms: ['OD1', 'OD2']
+  Coordination number: 30
+  Center coordinates: [-10.0505     -2.3865001 -15.12     ]
+  Nearby ligands: 30
+
+Binding Site 66:
+  Residue: CYS 47
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [ -2.869  -4.847 -16.335]
+  Nearby ligands: 19
+
+Binding Site 67:
+  Residue: HIS 48
+  Coordinating atoms: ['ND1', 'NE2']
+  Coordination number: 39
+  Center coordinates: [ -8.255   -2.218  -20.4645]
+  Nearby ligands: 39
+
+Binding Site 68:
+  Residue: CYS 49
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [ -0.792  -7.332 -18.812]
+  Nearby ligands: 19
+
+Binding Site 69:
+  Residue: GLU 50
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 54
+  Center coordinates: [  0.90900004 -10.709      -25.261     ]
+  Nearby ligands: 54
+
+Binding Site 70:
+  Residue: GLU 2
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 16
+  Center coordinates: [ 8.0025     7.0474997 -7.218    ]
+  Nearby ligands: 16
+
+Binding Site 71:
+  Residue: CYS 5
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [  4.843  -6.315 -15.495]
+  Nearby ligands: 19
+
+Binding Site 72:
+  Residue: CYS 7
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [  3.144  -7.104 -20.41 ]
+  Nearby ligands: 19
+
+Binding Site 73:
+  Residue: ASP 9
+  Coordinating atoms: ['OD1', 'OD2']
+  Coordination number: 29
+  Center coordinates: [ -0.78499997  -0.63       -23.194     ]
+  Nearby ligands: 29
+
+Binding Site 74:
+  Residue: CYS 10
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [  0.968  -5.49  -15.783]
+  Nearby ligands: 19
+
+Binding Site 75:
+  Residue: HIS 11
+  Coordinating atoms: ['ND1', 'NE2']
+  Coordination number: 28
+  Center coordinates: [ -0.99        1.0669999 -13.9575   ]
+  Nearby ligands: 28
+
+Binding Site 76:
+  Residue: CYS 12
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [ -0.997  -5.716 -12.063]
+  Nearby ligands: 19
+
+Binding Site 77:
+  Residue: ASP 15
+  Coordinating atoms: ['OD1', 'OD2']
+  Coordination number: 50
+  Center coordinates: [ 4.795  -7.2445 -2.9835]
+  Nearby ligands: 50
+
+Binding Site 78:
+  Residue: GLU 17
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 18
+  Center coordinates: [ 11.929 -11.958   0.918]
+  Nearby ligands: 18
+
+Binding Site 79:
+  Residue: HIS 22
+  Coordinating atoms: ['ND1', 'NE2']
+  Coordination number: 77
+  Center coordinates: [ 12.002    -15.165501 -18.836498]
+  Nearby ligands: 77
+
+Binding Site 80:
+  Residue: ASP 23
+  Coordinating atoms: ['OD1', 'OD2']
+  Coordination number: 41
+  Center coordinates: [ 12.755    -11.6515   -21.685001]
+  Nearby ligands: 41
+
+Binding Site 81:
+  Residue: GLU 25
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 20
+  Center coordinates: [ 11.8585  -3.8215 -16.3335]
+  Nearby ligands: 20
+
+Binding Site 82:
+  Residue: CYS 28
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [  2.09   -8.377 -13.128]
+  Nearby ligands: 19
+
+Binding Site 83:
+  Residue: CYS 32
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [  2.466  -9.09  -17.055]
+  Nearby ligands: 19
+
+Binding Site 84:
+  Residue: GLU 34
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 53
+  Center coordinates: [  7.8695   -18.4965   -18.393501]
+  Nearby ligands: 53
+
+Binding Site 85:
+  Residue: HIS 36
+  Coordinating atoms: ['ND1', 'NE2']
+  Coordination number: 76
+  Center coordinates: [  0.71000004 -11.562      -20.028     ]
+  Nearby ligands: 76
+
+Binding Site 86:
+  Residue: GLU 40
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 61
+  Center coordinates: [ -0.3125   -19.403    -16.244999]
+  Nearby ligands: 61
+
+Binding Site 87:
+  Residue: CYS 42
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [ -1.651  -8.551 -15.151]
+  Nearby ligands: 19
+
+Binding Site 88:
+  Residue: ASP 46
+  Coordinating atoms: ['OD1', 'OD2']
+  Coordination number: 38
+  Center coordinates: [ -9.301001   -1.8495    -13.9904995]
+  Nearby ligands: 38
+
+Binding Site 89:
+  Residue: CYS 47
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [ -2.846  -4.724 -16.435]
+  Nearby ligands: 19
+
+Binding Site 90:
+  Residue: HIS 48
+  Coordinating atoms: ['ND1', 'NE2']
+  Coordination number: 57
+  Center coordinates: [ -9.0855  -3.5675 -19.545 ]
+  Nearby ligands: 57
+
+Binding Site 91:
+  Residue: CYS 49
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [ -0.802  -7.281 -18.965]
+  Nearby ligands: 19
+
+Binding Site 92:
+  Residue: GLU 50
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 60
+  Center coordinates: [  2.3215  -8.7635 -25.094 ]
+  Nearby ligands: 60
+
+Binding Site 93:
+  Residue: GLU 2
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 29
+  Center coordinates: [ 5.3120003  3.9515    -6.4385004]
+  Nearby ligands: 29
+
+Binding Site 94:
+  Residue: CYS 5
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [  4.872  -6.365 -15.672]
+  Nearby ligands: 19
+
+Binding Site 95:
+  Residue: CYS 7
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [  3.152  -7.244 -20.486]
+  Nearby ligands: 19
+
+Binding Site 96:
+  Residue: ASP 9
+  Coordinating atoms: ['OD1', 'OD2']
+  Coordination number: 52
+  Center coordinates: [ -2.0545       0.46800002 -20.043499  ]
+  Nearby ligands: 52
+
+Binding Site 97:
+  Residue: CYS 10
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [  1.011  -5.581 -15.986]
+  Nearby ligands: 19
+
+Binding Site 98:
+  Residue: HIS 11
+  Coordinating atoms: ['ND1', 'NE2']
+  Coordination number: 20
+  Center coordinates: [ -0.03849998   1.4635     -16.0945    ]
+  Nearby ligands: 20
+
+Binding Site 99:
+  Residue: CYS 12
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [ -0.899  -5.715 -12.223]
+  Nearby ligands: 19
+
+Binding Site 100:
+  Residue: ASP 15
+  Coordinating atoms: ['OD1', 'OD2']
+  Coordination number: 47
+  Center coordinates: [ 4.449  -7.1975 -3.2085]
+  Nearby ligands: 47
+
+Binding Site 101:
+  Residue: GLU 17
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 30
+  Center coordinates: [ 11.327  -11.18     1.1835]
+  Nearby ligands: 30
+
+Binding Site 102:
+  Residue: HIS 22
+  Coordinating atoms: ['ND1', 'NE2']
+  Coordination number: 75
+  Center coordinates: [ 12.9405   -14.327499 -19.14    ]
+  Nearby ligands: 75
+
+Binding Site 103:
+  Residue: ASP 23
+  Coordinating atoms: ['OD1', 'OD2']
+  Coordination number: 55
+  Center coordinates: [ 15.621     -8.893    -22.237999]
+  Nearby ligands: 55
+
+Binding Site 104:
+  Residue: GLU 25
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 58
+  Center coordinates: [ 11.652      -4.8234997 -19.942    ]
+  Nearby ligands: 58
+
+Binding Site 105:
+  Residue: CYS 28
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [  2.15   -8.368 -13.229]
+  Nearby ligands: 19
+
+Binding Site 106:
+  Residue: CYS 32
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [  2.519  -9.196 -17.138]
+  Nearby ligands: 19
+
+Binding Site 107:
+  Residue: GLU 34
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 51
+  Center coordinates: [  7.908  -18.5695 -18.247 ]
+  Nearby ligands: 51
+
+Binding Site 108:
+  Residue: HIS 36
+  Coordinating atoms: ['ND1', 'NE2']
+  Coordination number: 76
+  Center coordinates: [  0.84150004 -11.733      -20.05      ]
+  Nearby ligands: 76
+
+Binding Site 109:
+  Residue: GLU 40
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 62
+  Center coordinates: [  0.0525 -18.1225 -15.6945]
+  Nearby ligands: 62
+
+Binding Site 110:
+  Residue: CYS 42
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [ -1.598  -8.634 -15.232]
+  Nearby ligands: 19
+
+Binding Site 111:
+  Residue: ASP 46
+  Coordinating atoms: ['OD1', 'OD2']
+  Coordination number: 42
+  Center coordinates: [ -9.394   -2.0465 -13.827 ]
+  Nearby ligands: 42
+
+Binding Site 112:
+  Residue: CYS 47
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [ -2.815  -4.829 -16.644]
+  Nearby ligands: 19
+
+Binding Site 113:
+  Residue: HIS 48
+  Coordinating atoms: ['ND1', 'NE2']
+  Coordination number: 55
+  Center coordinates: [ -9.047     -3.1425   -20.196499]
+  Nearby ligands: 55
+
+Binding Site 114:
+  Residue: CYS 49
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [ -0.78   -7.459 -19.064]
+  Nearby ligands: 19
+
+Binding Site 115:
+  Residue: GLU 50
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 46
+  Center coordinates: [  0.85999995 -11.464001   -24.733501  ]
+  Nearby ligands: 46
+
+Binding Site 116:
+  Residue: GLU 2
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 19
+  Center coordinates: [ 5.971      3.7814999 -4.7665   ]
+  Nearby ligands: 19
+
+Binding Site 117:
+  Residue: CYS 5
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [  5.09   -6.256 -15.278]
+  Nearby ligands: 19
+
+Binding Site 118:
+  Residue: CYS 7
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [  3.202  -7.006 -20.388]
+  Nearby ligands: 19
+
+Binding Site 119:
+  Residue: ASP 9
+  Coordinating atoms: ['OD1', 'OD2']
+  Coordination number: 55
+  Center coordinates: [ -2.358       -0.02899998 -20.3115    ]
+  Nearby ligands: 55
+
+Binding Site 120:
+  Residue: CYS 10
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [  1.361  -5.499 -15.545]
+  Nearby ligands: 19
+
+Binding Site 121:
+  Residue: HIS 11
+  Coordinating atoms: ['ND1', 'NE2']
+  Coordination number: 28
+  Center coordinates: [  2.2475   2.3565 -12.7075]
+  Nearby ligands: 28
+
+Binding Site 122:
+  Residue: CYS 12
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [ -0.156  -5.136 -11.765]
+  Nearby ligands: 19
+
+Binding Site 123:
+  Residue: ASP 15
+  Coordinating atoms: ['OD1', 'OD2']
+  Coordination number: 29
+  Center coordinates: [  2.9495 -10.061   -5.1425]
+  Nearby ligands: 29
+
+Binding Site 124:
+  Residue: GLU 17
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 17
+  Center coordinates: [  6.993     -13.8029995   0.26     ]
+  Nearby ligands: 17
+
+Binding Site 125:
+  Residue: HIS 22
+  Coordinating atoms: ['ND1', 'NE2']
+  Coordination number: 73
+  Center coordinates: [ 12.678499 -14.1025   -19.928501]
+  Nearby ligands: 73
+
+Binding Site 126:
+  Residue: ASP 23
+  Coordinating atoms: ['OD1', 'OD2']
+  Coordination number: 61
+  Center coordinates: [ 14.5965   -10.440001 -22.622   ]
+  Nearby ligands: 61
+
+Binding Site 127:
+  Residue: GLU 25
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 61
+  Center coordinates: [ 12.722  -4.344 -20.258]
+  Nearby ligands: 61
+
+Binding Site 128:
+  Residue: CYS 28
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [  2.445  -8.258 -12.84 ]
+  Nearby ligands: 19
+
+Binding Site 129:
+  Residue: CYS 32
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [  2.691  -8.948 -16.848]
+  Nearby ligands: 19
+
+Binding Site 130:
+  Residue: GLU 34
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 59
+  Center coordinates: [  8.52   -18.7635 -19.951 ]
+  Nearby ligands: 59
+
+Binding Site 131:
+  Residue: HIS 36
+  Coordinating atoms: ['ND1', 'NE2']
+  Coordination number: 76
+  Center coordinates: [  0.661    -11.382999 -19.616001]
+  Nearby ligands: 76
+
+Binding Site 132:
+  Residue: GLU 40
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 62
+  Center coordinates: [ -0.302    -19.01     -15.862499]
+  Nearby ligands: 62
+
+Binding Site 133:
+  Residue: CYS 42
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [ -1.45   -8.142 -14.558]
+  Nearby ligands: 19
+
+Binding Site 134:
+  Residue: ASP 46
+  Coordinating atoms: ['OD1', 'OD2']
+  Coordination number: 42
+  Center coordinates: [ -9.818001   -3.4850001 -11.657    ]
+  Nearby ligands: 42
+
+Binding Site 135:
+  Residue: CYS 47
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [ -2.425  -4.312 -16.052]
+  Nearby ligands: 19
+
+Binding Site 136:
+  Residue: HIS 48
+  Coordinating atoms: ['ND1', 'NE2']
+  Coordination number: 58
+  Center coordinates: [ -9.086   -4.2155 -19.593 ]
+  Nearby ligands: 58
+
+Binding Site 137:
+  Residue: CYS 49
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [ -0.658  -7.107 -18.614]
+  Nearby ligands: 19
+
+Binding Site 138:
+  Residue: GLU 50
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 64
+  Center coordinates: [  2.0885    -9.112499 -24.814   ]
+  Nearby ligands: 64
+
+Binding Site 139:
+  Residue: GLU 2
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 18
+  Center coordinates: [ 3.994   2.1105 -8.1625]
+  Nearby ligands: 18
+
+Binding Site 140:
+  Residue: CYS 5
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [  4.762  -6.602 -15.348]
+  Nearby ligands: 19
+
+Binding Site 141:
+  Residue: CYS 7
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [  3.213  -7.384 -20.208]
+  Nearby ligands: 19
+
+Binding Site 142:
+  Residue: ASP 9
+  Coordinating atoms: ['OD1', 'OD2']
+  Coordination number: 43
+  Center coordinates: [ -1.199     -0.634    -23.053501]
+  Nearby ligands: 43
+
+Binding Site 143:
+  Residue: CYS 10
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [  0.88   -5.732 -15.757]
+  Nearby ligands: 19
+
+Binding Site 144:
+  Residue: HIS 11
+  Coordinating atoms: ['ND1', 'NE2']
+  Coordination number: 29
+  Center coordinates: [  3.4535       0.80700004 -12.002     ]
+  Nearby ligands: 29
+
+Binding Site 145:
+  Residue: CYS 12
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [ -1.131  -6.266 -11.958]
+  Nearby ligands: 19
+
+Binding Site 146:
+  Residue: ASP 15
+  Coordinating atoms: ['OD1', 'OD2']
+  Coordination number: 43
+  Center coordinates: [ 4.8325    -6.614     -2.2185001]
+  Nearby ligands: 43
+
+Binding Site 147:
+  Residue: GLU 17
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 37
+  Center coordinates: [ 10.3155 -10.4115   1.9115]
+  Nearby ligands: 37
+
+Binding Site 148:
+  Residue: HIS 22
+  Coordinating atoms: ['ND1', 'NE2']
+  Coordination number: 75
+  Center coordinates: [ 11.856  -14.7755 -18.8165]
+  Nearby ligands: 75
+
+Binding Site 149:
+  Residue: ASP 23
+  Coordinating atoms: ['OD1', 'OD2']
+  Coordination number: 56
+  Center coordinates: [ 14.684999 -11.712    -21.9165  ]
+  Nearby ligands: 56
+
+Binding Site 150:
+  Residue: GLU 25
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 57
+  Center coordinates: [ 11.9345  -5.277  -19.694 ]
+  Nearby ligands: 57
+
+Binding Site 151:
+  Residue: CYS 28
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [  1.977  -8.728 -13.094]
+  Nearby ligands: 19
+
+Binding Site 152:
+  Residue: CYS 32
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [  2.415  -9.386 -16.992]
+  Nearby ligands: 19
+
+Binding Site 153:
+  Residue: GLU 34
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 35
+  Center coordinates: [  7.262  -18.59   -17.6875]
+  Nearby ligands: 35
+
+Binding Site 154:
+  Residue: HIS 36
+  Coordinating atoms: ['ND1', 'NE2']
+  Coordination number: 76
+  Center coordinates: [  0.88   -11.8495 -20.168 ]
+  Nearby ligands: 76
+
+Binding Site 155:
+  Residue: CYS 42
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [ -1.768  -8.878 -15.199]
+  Nearby ligands: 19
+
+Binding Site 156:
+  Residue: ASP 46
+  Coordinating atoms: ['OD1', 'OD2']
+  Coordination number: 44
+  Center coordinates: [ -8.764999   -1.8074999 -13.3395   ]
+  Nearby ligands: 44
+
+Binding Site 157:
+  Residue: CYS 47
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [ -2.902  -5.013 -16.484]
+  Nearby ligands: 19
+
+Binding Site 158:
+  Residue: HIS 48
+  Coordinating atoms: ['ND1', 'NE2']
+  Coordination number: 56
+  Center coordinates: [ -9.264   -4.0385 -19.0115]
+  Nearby ligands: 56
+
+Binding Site 159:
+  Residue: CYS 49
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [ -0.773  -7.563 -18.999]
+  Nearby ligands: 19
+
+Binding Site 160:
+  Residue: GLU 50
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 66
+  Center coordinates: [  2.126 -10.117 -24.472]
+  Nearby ligands: 66
+
+Binding Site 161:
+  Residue: GLU 2
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 9
+  Center coordinates: [10.118      5.1429996 -8.5395   ]
+  Nearby ligands: 9
+
+Binding Site 162:
+  Residue: CYS 5
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [  4.593  -6.055 -15.662]
+  Nearby ligands: 19
+
+Binding Site 163:
+  Residue: CYS 7
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [  3.058  -7.145 -20.481]
+  Nearby ligands: 19
+
+Binding Site 164:
+  Residue: ASP 9
+  Coordinating atoms: ['OD1', 'OD2']
+  Coordination number: 18
+  Center coordinates: [ -1.8425     -3.3769999 -22.122    ]
+  Nearby ligands: 18
+
+Binding Site 165:
+  Residue: CYS 10
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [  0.709  -5.465 -16.063]
+  Nearby ligands: 19
+
+Binding Site 166:
+  Residue: HIS 11
+  Coordinating atoms: ['ND1', 'NE2']
+  Coordination number: 10
+  Center coordinates: [  1.8325   1.2735 -17.312 ]
+  Nearby ligands: 10
+
+Binding Site 167:
+  Residue: CYS 12
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [ -1.271  -5.555 -12.389]
+  Nearby ligands: 19
+
+Binding Site 168:
+  Residue: ASP 15
+  Coordinating atoms: ['OD1', 'OD2']
+  Coordination number: 47
+  Center coordinates: [ 4.08      -6.807     -3.0654998]
+  Nearby ligands: 47
+
+Binding Site 169:
+  Residue: GLU 17
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 27
+  Center coordinates: [ 8.048  -9.3295  1.9245]
+  Nearby ligands: 27
+
+Binding Site 170:
+  Residue: HIS 22
+  Coordinating atoms: ['ND1', 'NE2']
+  Coordination number: 72
+  Center coordinates: [ 12.8175   -14.528999 -18.766499]
+  Nearby ligands: 72
+
+Binding Site 171:
+  Residue: ASP 23
+  Coordinating atoms: ['OD1', 'OD2']
+  Coordination number: 56
+  Center coordinates: [ 15.0525  -8.7705 -22.3815]
+  Nearby ligands: 56
+
+Binding Site 172:
+  Residue: GLU 25
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 24
+  Center coordinates: [ 11.726      -3.1655002 -16.917    ]
+  Nearby ligands: 24
+
+Binding Site 173:
+  Residue: CYS 28
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [  1.963  -8.099 -13.189]
+  Nearby ligands: 19
+
+Binding Site 174:
+  Residue: CYS 32
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [  2.431  -9.052 -17.086]
+  Nearby ligands: 19
+
+Binding Site 175:
+  Residue: GLU 34
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 56
+  Center coordinates: [ 10.142 -17.143 -21.218]
+  Nearby ligands: 56
+
+Binding Site 176:
+  Residue: HIS 36
+  Coordinating atoms: ['ND1', 'NE2']
+  Coordination number: 76
+  Center coordinates: [  0.777    -11.662    -20.037998]
+  Nearby ligands: 76
+
+Binding Site 177:
+  Residue: GLU 40
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 58
+  Center coordinates: [  0.74     -19.615501 -17.0225  ]
+  Nearby ligands: 58
+
+Binding Site 178:
+  Residue: CYS 42
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [ -1.725  -8.624 -15.21 ]
+  Nearby ligands: 19
+
+Binding Site 179:
+  Residue: ASP 46
+  Coordinating atoms: ['OD1', 'OD2']
+  Coordination number: 33
+  Center coordinates: [-10.7845  -4.1895 -11.8315]
+  Nearby ligands: 33
+
+Binding Site 180:
+  Residue: CYS 47
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [ -3.171  -4.908 -16.647]
+  Nearby ligands: 19
+
+Binding Site 181:
+  Residue: HIS 48
+  Coordinating atoms: ['ND1', 'NE2']
+  Coordination number: 47
+  Center coordinates: [ -9.735001  -5.26     -18.948   ]
+  Nearby ligands: 47
+
+Binding Site 182:
+  Residue: CYS 49
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [ -0.926  -7.396 -19.086]
+  Nearby ligands: 19
+
+Binding Site 183:
+  Residue: GLU 50
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 64
+  Center coordinates: [  1.9589999  -9.3265    -24.911499 ]
+  Nearby ligands: 64
+
+Binding Site 184:
+  Residue: GLU 2
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 26
+  Center coordinates: [ 5.7819996  3.1675    -6.691    ]
+  Nearby ligands: 26
+
+Binding Site 185:
+  Residue: CYS 5
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [  4.749  -6.285 -15.463]
+  Nearby ligands: 19
+
+Binding Site 186:
+  Residue: CYS 7
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [  3.096  -6.873 -20.274]
+  Nearby ligands: 19
+
+Binding Site 187:
+  Residue: ASP 9
+  Coordinating atoms: ['OD1', 'OD2']
+  Coordination number: 36
+  Center coordinates: [ -0.5375       0.36900002 -22.6315    ]
+  Nearby ligands: 36
+
+Binding Site 188:
+  Residue: CYS 10
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [  0.941  -5.622 -15.947]
+  Nearby ligands: 19
+
+Binding Site 189:
+  Residue: HIS 11
+  Coordinating atoms: ['ND1', 'NE2']
+  Coordination number: 29
+  Center coordinates: [  3.4145   0.9785 -11.5375]
+  Nearby ligands: 29
+
+Binding Site 190:
+  Residue: CYS 12
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [ -0.91   -5.703 -12.285]
+  Nearby ligands: 19
+
+Binding Site 191:
+  Residue: ASP 15
+  Coordinating atoms: ['OD1', 'OD2']
+  Coordination number: 28
+  Center coordinates: [ 6.842  -8.3755 -1.574 ]
+  Nearby ligands: 28
+
+Binding Site 192:
+  Residue: GLU 17
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 31
+  Center coordinates: [  8.0315   -12.997499   0.9205  ]
+  Nearby ligands: 31
+
+Binding Site 193:
+  Residue: HIS 22
+  Coordinating atoms: ['ND1', 'NE2']
+  Coordination number: 72
+  Center coordinates: [ 12.113501 -14.816    -18.734001]
+  Nearby ligands: 72
+
+Binding Site 194:
+  Residue: ASP 23
+  Coordinating atoms: ['OD1', 'OD2']
+  Coordination number: 58
+  Center coordinates: [ 15.079     -8.83     -21.685501]
+  Nearby ligands: 58
+
+Binding Site 195:
+  Residue: GLU 25
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 63
+  Center coordinates: [ 11.754   -4.7345 -19.3335]
+  Nearby ligands: 63
+
+Binding Site 196:
+  Residue: CYS 28
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [  1.936  -8.52  -13.3  ]
+  Nearby ligands: 19
+
+Binding Site 197:
+  Residue: CYS 32
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [  2.39   -9.168 -17.269]
+  Nearby ligands: 19
+
+Binding Site 198:
+  Residue: GLU 34
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 53
+  Center coordinates: [  8.2465 -18.824  -18.476 ]
+  Nearby ligands: 53
+
+Binding Site 199:
+  Residue: HIS 36
+  Coordinating atoms: ['ND1', 'NE2']
+  Coordination number: 77
+  Center coordinates: [  1.008    -11.3305   -20.712502]
+  Nearby ligands: 77
+
+Binding Site 200:
+  Residue: GLU 40
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 60
+  Center coordinates: [ -1.102  -18.8095 -17.1115]
+  Nearby ligands: 60
+
+Binding Site 201:
+  Residue: CYS 42
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [ -1.828  -8.52  -15.304]
+  Nearby ligands: 19
+
+Binding Site 202:
+  Residue: ASP 46
+  Coordinating atoms: ['OD1', 'OD2']
+  Coordination number: 27
+  Center coordinates: [ -8.535      -3.9050002 -10.115    ]
+  Nearby ligands: 27
+
+Binding Site 203:
+  Residue: CYS 47
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [ -2.796  -4.721 -16.595]
+  Nearby ligands: 19
+
+Binding Site 204:
+  Residue: HIS 48
+  Coordinating atoms: ['ND1', 'NE2']
+  Coordination number: 52
+  Center coordinates: [ -9.5645  -4.479  -18.164 ]
+  Nearby ligands: 52
+
+Binding Site 205:
+  Residue: CYS 49
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [ -0.822  -7.349 -19.202]
+  Nearby ligands: 19
+
+Binding Site 206:
+  Residue: GLU 50
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 69
+  Center coordinates: [  1.565  -9.377 -24.918]
+  Nearby ligands: 69
+
+Binding Site 207:
+  Residue: GLU 2
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 18
+  Center coordinates: [  6.7860003   6.238     -10.0815   ]
+  Nearby ligands: 18
+
+Binding Site 208:
+  Residue: CYS 5
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [  4.864  -6.337 -15.469]
+  Nearby ligands: 19
+
+Binding Site 209:
+  Residue: CYS 7
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [  3.176  -7.147 -20.306]
+  Nearby ligands: 19
+
+Binding Site 210:
+  Residue: ASP 9
+  Coordinating atoms: ['OD1', 'OD2']
+  Coordination number: 29
+  Center coordinates: [ -0.79499996  -0.789      -23.361     ]
+  Nearby ligands: 29
+
+Binding Site 211:
+  Residue: CYS 10
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [  1.01   -5.504 -15.78 ]
+  Nearby ligands: 19
+
+Binding Site 212:
+  Residue: HIS 11
+  Coordinating atoms: ['ND1', 'NE2']
+  Coordination number: 25
+  Center coordinates: [  2.584        0.52099997 -10.969     ]
+  Nearby ligands: 25
+
+Binding Site 213:
+  Residue: CYS 12
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [ -1.094  -5.767 -12.158]
+  Nearby ligands: 19
+
+Binding Site 214:
+  Residue: ASP 15
+  Coordinating atoms: ['OD1', 'OD2']
+  Coordination number: 45
+  Center coordinates: [ 5.356  -6.653  -2.6505]
+  Nearby ligands: 45
+
+Binding Site 215:
+  Residue: GLU 17
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 10
+  Center coordinates: [11.837999 -7.391    -0.2495  ]
+  Nearby ligands: 10
+
+Binding Site 216:
+  Residue: HIS 22
+  Coordinating atoms: ['ND1', 'NE2']
+  Coordination number: 71
+  Center coordinates: [ 12.876499 -13.188    -20.038   ]
+  Nearby ligands: 71
+
+Binding Site 217:
+  Residue: ASP 23
+  Coordinating atoms: ['OD1', 'OD2']
+  Coordination number: 45
+  Center coordinates: [ 16.354     -8.327    -21.935501]
+  Nearby ligands: 45
+
+Binding Site 218:
+  Residue: GLU 25
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 63
+  Center coordinates: [ 12.246      -5.0690002 -20.043    ]
+  Nearby ligands: 63
+
+Binding Site 219:
+  Residue: CYS 28
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [  2.074  -8.365 -13.075]
+  Nearby ligands: 19
+
+Binding Site 220:
+  Residue: CYS 32
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [  2.441  -9.146 -16.997]
+  Nearby ligands: 19
+
+Binding Site 221:
+  Residue: GLU 34
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 49
+  Center coordinates: [  7.6605 -18.7565 -18.483 ]
+  Nearby ligands: 49
+
+Binding Site 222:
+  Residue: HIS 36
+  Coordinating atoms: ['ND1', 'NE2']
+  Coordination number: 76
+  Center coordinates: [  0.617    -11.537001 -20.05    ]
+  Nearby ligands: 76
+
+Binding Site 223:
+  Residue: GLU 40
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 63
+  Center coordinates: [ -0.3775 -17.987  -15.85  ]
+  Nearby ligands: 63
+
+Binding Site 224:
+  Residue: CYS 42
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [ -1.663  -8.528 -15.135]
+  Nearby ligands: 19
+
+Binding Site 225:
+  Residue: ASP 46
+  Coordinating atoms: ['OD1', 'OD2']
+  Coordination number: 34
+  Center coordinates: [ -7.88    -1.4735 -13.1325]
+  Nearby ligands: 34
+
+Binding Site 226:
+  Residue: CYS 47
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [ -2.78   -4.66  -16.453]
+  Nearby ligands: 19
+
+Binding Site 227:
+  Residue: HIS 48
+  Coordinating atoms: ['ND1', 'NE2']
+  Coordination number: 25
+  Center coordinates: [ -5.4595003  -1.1755    -20.7095   ]
+  Nearby ligands: 25
+
+Binding Site 228:
+  Residue: CYS 49
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [ -0.786  -7.242 -18.922]
+  Nearby ligands: 19
+
+Binding Site 229:
+  Residue: GLU 50
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 65
+  Center coordinates: [  2.2445002  -9.7265    -24.824501 ]
+  Nearby ligands: 65
+
+Binding Site 230:
+  Residue: GLU 2
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 25
+  Center coordinates: [ 4.5495  5.402  -7.2535]
+  Nearby ligands: 25
+
+Binding Site 231:
+  Residue: CYS 5
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [  4.847  -6.321 -15.332]
+  Nearby ligands: 19
+
+Binding Site 232:
+  Residue: CYS 7
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [  3.215  -7.027 -20.228]
+  Nearby ligands: 19
+
+Binding Site 233:
+  Residue: ASP 9
+  Coordinating atoms: ['OD1', 'OD2']
+  Coordination number: 56
+  Center coordinates: [ -2.6620002  -1.076     -21.184502 ]
+  Nearby ligands: 56
+
+Binding Site 234:
+  Residue: CYS 10
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [  1.005  -5.557 -15.712]
+  Nearby ligands: 19
+
+Binding Site 235:
+  Residue: HIS 11
+  Coordinating atoms: ['ND1', 'NE2']
+  Coordination number: 15
+  Center coordinates: [  2.1785002   2.118     -15.548    ]
+  Nearby ligands: 15
+
+Binding Site 236:
+  Residue: CYS 12
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [ -0.962  -5.79  -11.996]
+  Nearby ligands: 19
+
+Binding Site 237:
+  Residue: ASP 15
+  Coordinating atoms: ['OD1', 'OD2']
+  Coordination number: 49
+  Center coordinates: [ 4.583  -7.5865 -2.796 ]
+  Nearby ligands: 49
+
+Binding Site 238:
+  Residue: GLU 17
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 36
+  Center coordinates: [ 8.4825   -9.636499  1.4145  ]
+  Nearby ligands: 36
+
+Binding Site 239:
+  Residue: HIS 22
+  Coordinating atoms: ['ND1', 'NE2']
+  Coordination number: 75
+  Center coordinates: [ 12.545    -14.504499 -19.284   ]
+  Nearby ligands: 75
+
+Binding Site 240:
+  Residue: ASP 23
+  Coordinating atoms: ['OD1', 'OD2']
+  Coordination number: 50
+  Center coordinates: [ 16.309  -9.671 -22.351]
+  Nearby ligands: 50
+
+Binding Site 241:
+  Residue: GLU 25
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 46
+  Center coordinates: [ 14.051   -5.2125 -19.7395]
+  Nearby ligands: 46
+
+Binding Site 242:
+  Residue: CYS 28
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [  2.078  -8.436 -13.036]
+  Nearby ligands: 19
+
+Binding Site 243:
+  Residue: CYS 32
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [  2.531  -9.112 -16.976]
+  Nearby ligands: 19
+
+Binding Site 244:
+  Residue: GLU 34
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 46
+  Center coordinates: [  7.935  -18.3485 -17.9705]
+  Nearby ligands: 46
+
+Binding Site 245:
+  Residue: HIS 36
+  Coordinating atoms: ['ND1', 'NE2']
+  Coordination number: 76
+  Center coordinates: [  0.8595 -11.516  -20.018 ]
+  Nearby ligands: 76
+
+Binding Site 246:
+  Residue: GLU 40
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 58
+  Center coordinates: [  0.06900001 -17.332      -16.0585    ]
+  Nearby ligands: 58
+
+Binding Site 247:
+  Residue: CYS 42
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [ -1.629  -8.611 -15.102]
+  Nearby ligands: 19
+
+Binding Site 248:
+  Residue: ASP 46
+  Coordinating atoms: ['OD1', 'OD2']
+  Coordination number: 39
+  Center coordinates: [ -8.415   -1.711  -12.9755]
+  Nearby ligands: 39
+
+Binding Site 249:
+  Residue: CYS 47
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [ -2.811  -4.738 -16.361]
+  Nearby ligands: 19
+
+Binding Site 250:
+  Residue: HIS 48
+  Coordinating atoms: ['ND1', 'NE2']
+  Coordination number: 57
+  Center coordinates: [ -9.136999  -3.66     -18.877499]
+  Nearby ligands: 57
+
+Binding Site 251:
+  Residue: CYS 49
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [ -0.753  -7.27  -18.883]
+  Nearby ligands: 19
+
+Binding Site 252:
+  Residue: GLU 50
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 63
+  Center coordinates: [  2.2855  -9.312  -24.9915]
+  Nearby ligands: 63
+
+Binding Site 253:
+  Residue: GLU 2
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 15
+  Center coordinates: [ 8.4755     7.5699997 -8.285999 ]
+  Nearby ligands: 15
+
+Binding Site 254:
+  Residue: CYS 5
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [  4.941  -6.278 -15.483]
+  Nearby ligands: 19
+
+Binding Site 255:
+  Residue: CYS 7
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [  3.32   -7.113 -20.344]
+  Nearby ligands: 19
+
+Binding Site 256:
+  Residue: ASP 9
+  Coordinating atoms: ['OD1', 'OD2']
+  Coordination number: 45
+  Center coordinates: [ -1.156    0.9805 -19.6185]
+  Nearby ligands: 45
+
+Binding Site 257:
+  Residue: CYS 10
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [  1.081  -5.557 -15.879]
+  Nearby ligands: 19
+
+Binding Site 258:
+  Residue: HIS 11
+  Coordinating atoms: ['ND1', 'NE2']
+  Coordination number: 10
+  Center coordinates: [ -2.6255002   1.2335    -11.9105   ]
+  Nearby ligands: 10
+
+Binding Site 259:
+  Residue: CYS 12
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [ -1.065  -5.847 -12.28 ]
+  Nearby ligands: 19
+
+Binding Site 260:
+  Residue: ASP 15
+  Coordinating atoms: ['OD1', 'OD2']
+  Coordination number: 50
+  Center coordinates: [ 4.8895    -7.1505003 -3.2424998]
+  Nearby ligands: 50
+
+Binding Site 261:
+  Residue: GLU 17
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 28
+  Center coordinates: [10.5435 -8.7035  1.923 ]
+  Nearby ligands: 28
+
+Binding Site 262:
+  Residue: HIS 22
+  Coordinating atoms: ['ND1', 'NE2']
+  Coordination number: 74
+  Center coordinates: [ 12.3305 -15.5595 -18.571 ]
+  Nearby ligands: 74
+
+Binding Site 263:
+  Residue: ASP 23
+  Coordinating atoms: ['OD1', 'OD2']
+  Coordination number: 45
+  Center coordinates: [ 13.353001 -12.167    -21.723   ]
+  Nearby ligands: 45
+
+Binding Site 264:
+  Residue: GLU 25
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 16
+  Center coordinates: [ 12.578   -4.061  -16.4855]
+  Nearby ligands: 16
+
+Binding Site 265:
+  Residue: CYS 28
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [  2.172  -8.361 -13.132]
+  Nearby ligands: 19
+
+Binding Site 266:
+  Residue: CYS 32
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [  2.637  -9.147 -17.05 ]
+  Nearby ligands: 19
+
+Binding Site 267:
+  Residue: GLU 34
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 56
+  Center coordinates: [  8.7145 -18.8135 -19.0325]
+  Nearby ligands: 56
+
+Binding Site 268:
+  Residue: HIS 36
+  Coordinating atoms: ['ND1', 'NE2']
+  Coordination number: 76
+  Center coordinates: [  1.018  -11.6385 -20.054 ]
+  Nearby ligands: 76
+
+Binding Site 269:
+  Residue: GLU 40
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 55
+  Center coordinates: [ -0.24649999 -19.847      -17.281     ]
+  Nearby ligands: 55
+
+Binding Site 270:
+  Residue: CYS 42
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [ -1.525  -8.635 -15.23 ]
+  Nearby ligands: 19
+
+Binding Site 271:
+  Residue: ASP 46
+  Coordinating atoms: ['OD1', 'OD2']
+  Coordination number: 41
+  Center coordinates: [ -9.804501   -3.7235003 -11.4545   ]
+  Nearby ligands: 41
+
+Binding Site 272:
+  Residue: CYS 47
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [ -2.731  -4.811 -16.611]
+  Nearby ligands: 19
+
+Binding Site 273:
+  Residue: HIS 48
+  Coordinating atoms: ['ND1', 'NE2']
+  Coordination number: 58
+  Center coordinates: [ -9.191   -4.2385 -19.582 ]
+  Nearby ligands: 58
+
+Binding Site 274:
+  Residue: CYS 49
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [ -0.644  -7.388 -19.017]
+  Nearby ligands: 19
+
+Binding Site 275:
+  Residue: GLU 50
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 47
+  Center coordinates: [  1.215    -11.518999 -24.479   ]
+  Nearby ligands: 47
+
+Binding Site 276:
+  Residue: GLU 2
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 19
+  Center coordinates: [ 5.5245    6.3945   -9.872999]
+  Nearby ligands: 19
+
+Binding Site 277:
+  Residue: CYS 5
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [  5.184  -6.403 -15.394]
+  Nearby ligands: 19
+
+Binding Site 278:
+  Residue: CYS 7
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [  3.347  -7.188 -20.168]
+  Nearby ligands: 19
+
+Binding Site 279:
+  Residue: ASP 9
+  Coordinating atoms: ['OD1', 'OD2']
+  Coordination number: 59
+  Center coordinates: [ -2.8445  -1.155  -21.1455]
+  Nearby ligands: 59
+
+Binding Site 280:
+  Residue: CYS 10
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [  1.382  -5.442 -15.602]
+  Nearby ligands: 19
+
+Binding Site 281:
+  Residue: HIS 11
+  Coordinating atoms: ['ND1', 'NE2']
+  Coordination number: 25
+  Center coordinates: [ -0.88850003   1.6385     -15.1495    ]
+  Nearby ligands: 25
+
+Binding Site 282:
+  Residue: CYS 12
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [ -0.185  -5.527 -11.711]
+  Nearby ligands: 19
+
+Binding Site 283:
+  Residue: ASP 15
+  Coordinating atoms: ['OD1', 'OD2']
+  Coordination number: 24
+  Center coordinates: [  2.988  -10.1835  -5.474 ]
+  Nearby ligands: 24
+
+Binding Site 284:
+  Residue: GLU 17
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 31
+  Center coordinates: [  7.0985003 -11.0525      1.1785   ]
+  Nearby ligands: 31
+
+Binding Site 285:
+  Residue: HIS 22
+  Coordinating atoms: ['ND1', 'NE2']
+  Coordination number: 70
+  Center coordinates: [ 12.613501 -13.5695   -20.08    ]
+  Nearby ligands: 70
+
+Binding Site 286:
+  Residue: ASP 23
+  Coordinating atoms: ['OD1', 'OD2']
+  Coordination number: 49
+  Center coordinates: [ 16.04    -8.5355 -22.462 ]
+  Nearby ligands: 49
+
+Binding Site 287:
+  Residue: GLU 25
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 62
+  Center coordinates: [ 12.4735  -4.3655 -20.294 ]
+  Nearby ligands: 62
+
+Binding Site 288:
+  Residue: CYS 28
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [  2.529  -8.354 -12.932]
+  Nearby ligands: 19
+
+Binding Site 289:
+  Residue: CYS 32
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [  2.699  -9.14  -16.829]
+  Nearby ligands: 19
+
+Binding Site 290:
+  Residue: GLU 34
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 62
+  Center coordinates: [  9.1045   -18.369999 -20.1355  ]
+  Nearby ligands: 62
+
+Binding Site 291:
+  Residue: HIS 36
+  Coordinating atoms: ['ND1', 'NE2']
+  Coordination number: 76
+  Center coordinates: [  0.645  -11.4695 -19.867 ]
+  Nearby ligands: 76
+
+Binding Site 292:
+  Residue: GLU 40
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 62
+  Center coordinates: [  0.036  -17.9795 -15.4725]
+  Nearby ligands: 62
+
+Binding Site 293:
+  Residue: CYS 42
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [ -1.338  -8.346 -14.673]
+  Nearby ligands: 19
+
+Binding Site 294:
+  Residue: ASP 46
+  Coordinating atoms: ['OD1', 'OD2']
+  Coordination number: 34
+  Center coordinates: [ -9.349501  -3.6815   -10.7055  ]
+  Nearby ligands: 34
+
+Binding Site 295:
+  Residue: CYS 47
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [ -2.418  -4.485 -16.056]
+  Nearby ligands: 19
+
+Binding Site 296:
+  Residue: HIS 48
+  Coordinating atoms: ['ND1', 'NE2']
+  Coordination number: 48
+  Center coordinates: [ -9.1665    -5.154    -18.185001]
+  Nearby ligands: 48
+
+Binding Site 297:
+  Residue: CYS 49
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [ -0.581  -7.224 -18.596]
+  Nearby ligands: 19
+
+Binding Site 298:
+  Residue: GLU 50
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 68
+  Center coordinates: [  2.2225  -9.2165 -24.737 ]
+  Nearby ligands: 68
+
+Binding Site 299:
+  Residue: GLU 2
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 10
+  Center coordinates: [ 7.344   3.4345 -4.4875]
+  Nearby ligands: 10
+
+Binding Site 300:
+  Residue: CYS 5
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [  5.354  -6.416 -15.236]
+  Nearby ligands: 19
+
+Binding Site 301:
+  Residue: CYS 7
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [  3.663  -7.258 -20.058]
+  Nearby ligands: 19
+
+Binding Site 302:
+  Residue: ASP 9
+  Coordinating atoms: ['OD1', 'OD2']
+  Coordination number: 56
+  Center coordinates: [ -2.113   -0.1525 -20.888 ]
+  Nearby ligands: 56
+
+Binding Site 303:
+  Residue: CYS 10
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [  1.603  -5.372 -15.602]
+  Nearby ligands: 19
+
+Binding Site 304:
+  Residue: HIS 11
+  Coordinating atoms: ['ND1', 'NE2']
+  Coordination number: 30
+  Center coordinates: [  3.296    1.9545 -12.4195]
+  Nearby ligands: 30
+
+Binding Site 305:
+  Residue: CYS 12
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [ -0.118  -5.259 -11.829]
+  Nearby ligands: 19
+
+Binding Site 306:
+  Residue: ASP 15
+  Coordinating atoms: ['OD1', 'OD2']
+  Coordination number: 24
+  Center coordinates: [  3.126     -10.8255005  -5.408    ]
+  Nearby ligands: 24
+
+Binding Site 307:
+  Residue: GLU 17
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 28
+  Center coordinates: [  7.3285   -12.620501   1.271   ]
+  Nearby ligands: 28
+
+Binding Site 308:
+  Residue: HIS 22
+  Coordinating atoms: ['ND1', 'NE2']
+  Coordination number: 68
+  Center coordinates: [ 13.389    -13.530001 -20.1125  ]
+  Nearby ligands: 68
+
+Binding Site 309:
+  Residue: ASP 23
+  Coordinating atoms: ['OD1', 'OD2']
+  Coordination number: 57
+  Center coordinates: [ 14.3225   -10.341499 -22.5335  ]
+  Nearby ligands: 57
+
+Binding Site 310:
+  Residue: GLU 25
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 51
+  Center coordinates: [ 13.79   -4.399 -19.813]
+  Nearby ligands: 51
+
+Binding Site 311:
+  Residue: CYS 28
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [  2.53   -8.193 -12.802]
+  Nearby ligands: 19
+
+Binding Site 312:
+  Residue: CYS 32
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [  2.842  -9.134 -16.701]
+  Nearby ligands: 19
+
+Binding Site 313:
+  Residue: GLU 34
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 60
+  Center coordinates: [  9.8455 -17.789  -20.51  ]
+  Nearby ligands: 60
+
+Binding Site 314:
+  Residue: HIS 36
+  Coordinating atoms: ['ND1', 'NE2']
+  Coordination number: 76
+  Center coordinates: [  0.7905    -11.4244995 -19.7      ]
+  Nearby ligands: 76
+
+Binding Site 315:
+  Residue: GLU 40
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 58
+  Center coordinates: [ -0.0985 -17.7705 -15.2675]
+  Nearby ligands: 58
+
+Binding Site 316:
+  Residue: CYS 42
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [ -1.243  -8.133 -14.709]
+  Nearby ligands: 19
+
+Binding Site 317:
+  Residue: ASP 46
+  Coordinating atoms: ['OD1', 'OD2']
+  Coordination number: 46
+  Center coordinates: [ -9.9115  -2.376  -11.9   ]
+  Nearby ligands: 46
+
+Binding Site 318:
+  Residue: CYS 47
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [ -2.143  -4.274 -16.213]
+  Nearby ligands: 19
+
+Binding Site 319:
+  Residue: HIS 48
+  Coordinating atoms: ['ND1', 'NE2']
+  Coordination number: 57
+  Center coordinates: [ -8.879   -4.7295 -19.354 ]
+  Nearby ligands: 57
+
+Binding Site 320:
+  Residue: CYS 49
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [ -0.314  -7.13  -18.62 ]
+  Nearby ligands: 19
+
+Binding Site 321:
+  Residue: GLU 50
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 66
+  Center coordinates: [  2.4345    -9.3395   -24.807499]
+  Nearby ligands: 66
+
+Binding Site 322:
+  Residue: GLU 2
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 4
+  Center coordinates: [ 2.326       0.02599996 -6.076     ]
+  Nearby ligands: 4
+
+Binding Site 323:
+  Residue: CYS 5
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [  4.748  -6.154 -15.63 ]
+  Nearby ligands: 19
+
+Binding Site 324:
+  Residue: CYS 7
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [  3.046  -7.253 -20.481]
+  Nearby ligands: 19
+
+Binding Site 325:
+  Residue: ASP 9
+  Coordinating atoms: ['OD1', 'OD2']
+  Coordination number: 48
+  Center coordinates: [ -1.617    1.371  -20.3535]
+  Nearby ligands: 48
+
+Binding Site 326:
+  Residue: CYS 10
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [  0.857  -5.434 -15.952]
+  Nearby ligands: 19
+
+Binding Site 327:
+  Residue: HIS 11
+  Coordinating atoms: ['ND1', 'NE2']
+  Coordination number: 14
+  Center coordinates: [ -2.8109999   -0.33549997 -13.9395    ]
+  Nearby ligands: 14
+
+Binding Site 328:
+  Residue: CYS 12
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [ -1.066  -5.461 -12.219]
+  Nearby ligands: 19
+
+Binding Site 329:
+  Residue: ASP 15
+  Coordinating atoms: ['OD1', 'OD2']
+  Coordination number: 44
+  Center coordinates: [ 5.0575    -6.3050003 -3.037    ]
+  Nearby ligands: 44
+
+Binding Site 330:
+  Residue: GLU 17
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 26
+  Center coordinates: [ 9.884  -8.4555  1.806 ]
+  Nearby ligands: 26
+
+Binding Site 331:
+  Residue: HIS 22
+  Coordinating atoms: ['ND1', 'NE2']
+  Coordination number: 73
+  Center coordinates: [ 11.804501 -15.353001 -18.5015  ]
+  Nearby ligands: 73
+
+Binding Site 332:
+  Residue: ASP 23
+  Coordinating atoms: ['OD1', 'OD2']
+  Coordination number: 53
+  Center coordinates: [ 14.1189995  -9.681999  -22.9735   ]
+  Nearby ligands: 53
+
+Binding Site 333:
+  Residue: GLU 25
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 24
+  Center coordinates: [ 11.901501  -3.6335   -16.803001]
+  Nearby ligands: 24
+
+Binding Site 334:
+  Residue: CYS 28
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [  2.04   -8.128 -13.134]
+  Nearby ligands: 19
+
+Binding Site 335:
+  Residue: CYS 32
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [  2.439  -9.124 -17.041]
+  Nearby ligands: 19
+
+Binding Site 336:
+  Residue: GLU 34
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 55
+  Center coordinates: [  9.539  -17.9805 -20.897 ]
+  Nearby ligands: 55
+
+Binding Site 337:
+  Residue: HIS 36
+  Coordinating atoms: ['ND1', 'NE2']
+  Coordination number: 76
+  Center coordinates: [  0.6855 -11.722  -19.9695]
+  Nearby ligands: 76
+
+Binding Site 338:
+  Residue: GLU 40
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 61
+  Center coordinates: [  0.11000001 -18.111      -15.362499  ]
+  Nearby ligands: 61
+
+Binding Site 339:
+  Residue: CYS 42
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [ -1.698  -8.499 -15.117]
+  Nearby ligands: 19
+
+Binding Site 340:
+  Residue: ASP 46
+  Coordinating atoms: ['OD1', 'OD2']
+  Coordination number: 34
+  Center coordinates: [-10.3505    -4.5935   -11.450001]
+  Nearby ligands: 34
+
+Binding Site 341:
+  Residue: CYS 47
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [ -2.979  -4.756 -16.6  ]
+  Nearby ligands: 19
+
+Binding Site 342:
+  Residue: HIS 48
+  Coordinating atoms: ['ND1', 'NE2']
+  Coordination number: 32
+  Center coordinates: [ -5.2335    -0.9425   -21.012001]
+  Nearby ligands: 32
+
+Binding Site 343:
+  Residue: CYS 49
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [ -0.888  -7.388 -18.993]
+  Nearby ligands: 19
+
+Binding Site 344:
+  Residue: GLU 50
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 62
+  Center coordinates: [  2.045   -9.004  -25.0955]
+  Nearby ligands: 62
+
+Binding Site 345:
+  Residue: CYS 5
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [  4.943  -6.218 -15.392]
+  Nearby ligands: 19
+
+Binding Site 346:
+  Residue: CYS 7
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [  3.204  -6.978 -20.219]
+  Nearby ligands: 19
+
+Binding Site 347:
+  Residue: ASP 9
+  Coordinating atoms: ['OD1', 'OD2']
+  Coordination number: 51
+  Center coordinates: [ -1.6110001   0.8125    -19.986    ]
+  Nearby ligands: 51
+
+Binding Site 348:
+  Residue: CYS 10
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [  1.074  -5.413 -15.671]
+  Nearby ligands: 19
+
+Binding Site 349:
+  Residue: HIS 11
+  Coordinating atoms: ['ND1', 'NE2']
+  Coordination number: 27
+  Center coordinates: [  0.774   1.719 -11.348]
+  Nearby ligands: 27
+
+Binding Site 350:
+  Residue: CYS 12
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [ -0.988  -5.716 -12.043]
+  Nearby ligands: 19
+
+Binding Site 351:
+  Residue: ASP 15
+  Coordinating atoms: ['OD1', 'OD2']
+  Coordination number: 43
+  Center coordinates: [ 5.2625 -6.4685 -2.7385]
+  Nearby ligands: 43
+
+Binding Site 352:
+  Residue: GLU 17
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 32
+  Center coordinates: [10.8810005 -9.258499   1.7885001]
+  Nearby ligands: 32
+
+Binding Site 353:
+  Residue: HIS 22
+  Coordinating atoms: ['ND1', 'NE2']
+  Coordination number: 75
+  Center coordinates: [ 11.8515   -14.606501 -19.363499]
+  Nearby ligands: 75
+
+Binding Site 354:
+  Residue: ASP 23
+  Coordinating atoms: ['OD1', 'OD2']
+  Coordination number: 57
+  Center coordinates: [ 15.7805    -9.636999 -22.3765  ]
+  Nearby ligands: 57
+
+Binding Site 355:
+  Residue: GLU 25
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 58
+  Center coordinates: [ 12.195499  -5.2725   -20.112999]
+  Nearby ligands: 58
+
+Binding Site 356:
+  Residue: CYS 28
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [  2.183  -8.285 -13.001]
+  Nearby ligands: 19
+
+Binding Site 357:
+  Residue: CYS 32
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [  2.531  -9.034 -16.927]
+  Nearby ligands: 19
+
+Binding Site 358:
+  Residue: GLU 34
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 53
+  Center coordinates: [  7.8665   -18.7165   -18.803001]
+  Nearby ligands: 53
+
+Binding Site 359:
+  Residue: HIS 36
+  Coordinating atoms: ['ND1', 'NE2']
+  Coordination number: 76
+  Center coordinates: [  0.709  -11.4195 -19.999 ]
+  Nearby ligands: 76
+
+Binding Site 360:
+  Residue: GLU 40
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 61
+  Center coordinates: [ -0.5305   -19.327    -16.377499]
+  Nearby ligands: 61
+
+Binding Site 361:
+  Residue: CYS 42
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [ -1.573  -8.455 -15.023]
+  Nearby ligands: 19
+
+Binding Site 362:
+  Residue: ASP 46
+  Coordinating atoms: ['OD1', 'OD2']
+  Coordination number: 41
+  Center coordinates: [ -9.4195  -1.7205 -13.659 ]
+  Nearby ligands: 41
+
+Binding Site 363:
+  Residue: CYS 47
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [ -2.735  -4.586 -16.322]
+  Nearby ligands: 19
+
+Binding Site 364:
+  Residue: HIS 48
+  Coordinating atoms: ['ND1', 'NE2']
+  Coordination number: 54
+  Center coordinates: [ -9.1495     -3.4864998 -19.801    ]
+  Nearby ligands: 54
+
+Binding Site 365:
+  Residue: CYS 49
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [ -0.736  -7.15  -18.803]
+  Nearby ligands: 19
+
+Binding Site 366:
+  Residue: GLU 50
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 62
+  Center coordinates: [  2.3825002  -8.73      -24.657501 ]
+  Nearby ligands: 62
+
+Binding Site 367:
+  Residue: GLU 2
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 19
+  Center coordinates: [ 8.117001  6.625    -6.955   ]
+  Nearby ligands: 19
+
+Binding Site 368:
+  Residue: CYS 5
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [  5.196  -6.539 -15.429]
+  Nearby ligands: 19
+
+Binding Site 369:
+  Residue: CYS 7
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [  3.442  -7.452 -20.216]
+  Nearby ligands: 19
+
+Binding Site 370:
+  Residue: ASP 9
+  Coordinating atoms: ['OD1', 'OD2']
+  Coordination number: 52
+  Center coordinates: [ -2.7135  -1.849  -21.337 ]
+  Nearby ligands: 52
+
+Binding Site 371:
+  Residue: CYS 10
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [  1.41   -5.578 -15.742]
+  Nearby ligands: 19
+
+Binding Site 372:
+  Residue: HIS 11
+  Coordinating atoms: ['ND1', 'NE2']
+  Coordination number: 22
+  Center coordinates: [ -2.783        0.18149999 -15.2625    ]
+  Nearby ligands: 22
+
+Binding Site 373:
+  Residue: CYS 12
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [ -0.232  -5.549 -11.881]
+  Nearby ligands: 19
+
+Binding Site 374:
+  Residue: ASP 15
+  Coordinating atoms: ['OD1', 'OD2']
+  Coordination number: 24
+  Center coordinates: [  3.207  -10.0625  -5.5685]
+  Nearby ligands: 24
+
+Binding Site 375:
+  Residue: GLU 17
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 29
+  Center coordinates: [  6.94   -12.3685   1.0725]
+  Nearby ligands: 29
+
+Binding Site 376:
+  Residue: HIS 22
+  Coordinating atoms: ['ND1', 'NE2']
+  Coordination number: 74
+  Center coordinates: [ 13.0875 -13.6535 -19.765 ]
+  Nearby ligands: 74
+
+Binding Site 377:
+  Residue: ASP 23
+  Coordinating atoms: ['OD1', 'OD2']
+  Coordination number: 50
+  Center coordinates: [ 15.223  -7.781 -22.403]
+  Nearby ligands: 50
+
+Binding Site 378:
+  Residue: GLU 25
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 55
+  Center coordinates: [ 11.482     -4.3055   -19.724499]
+  Nearby ligands: 55
+
+Binding Site 379:
+  Residue: CYS 28
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [  2.481  -8.431 -12.975]
+  Nearby ligands: 19
+
+Binding Site 380:
+  Residue: CYS 32
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [  2.727  -9.322 -16.851]
+  Nearby ligands: 19
+
+Binding Site 381:
+  Residue: GLU 34
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 55
+  Center coordinates: [  9.945    -17.5095   -21.115002]
+  Nearby ligands: 55
+
+Binding Site 382:
+  Residue: HIS 36
+  Coordinating atoms: ['ND1', 'NE2']
+  Coordination number: 76
+  Center coordinates: [  0.85099995 -11.743      -19.703999  ]
+  Nearby ligands: 76
+
+Binding Site 383:
+  Residue: GLU 40
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 63
+  Center coordinates: [ -0.06100002 -19.6185     -16.708     ]
+  Nearby ligands: 63
+
+Binding Site 384:
+  Residue: CYS 42
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [ -1.349  -8.429 -14.794]
+  Nearby ligands: 19
+
+Binding Site 385:
+  Residue: ASP 46
+  Coordinating atoms: ['OD1', 'OD2']
+  Coordination number: 39
+  Center coordinates: [ -9.199499  -3.225    -10.8955  ]
+  Nearby ligands: 39
+
+Binding Site 386:
+  Residue: CYS 47
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [ -2.367  -4.596 -16.3  ]
+  Nearby ligands: 19
+
+Binding Site 387:
+  Residue: HIS 48
+  Coordinating atoms: ['ND1', 'NE2']
+  Coordination number: 27
+  Center coordinates: [ -6.2135     -2.3305001 -20.6585   ]
+  Nearby ligands: 27
+
+Binding Site 388:
+  Residue: CYS 49
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [ -0.51   -7.422 -18.72 ]
+  Nearby ligands: 19
+
+Binding Site 389:
+  Residue: GLU 50
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 17
+  Center coordinates: [ -0.43350002 -11.8525     -24.314     ]
+  Nearby ligands: 17
+
+Binding Site 390:
+  Residue: GLU 2
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 29
+  Center coordinates: [ 6.1975  5.2935 -9.1175]
+  Nearby ligands: 29
+
+Binding Site 391:
+  Residue: CYS 5
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [  5.17   -6.422 -15.476]
+  Nearby ligands: 19
+
+Binding Site 392:
+  Residue: CYS 7
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [  3.438  -7.454 -20.245]
+  Nearby ligands: 19
+
+Binding Site 393:
+  Residue: ASP 9
+  Coordinating atoms: ['OD1', 'OD2']
+  Coordination number: 59
+  Center coordinates: [ -2.7625  -1.3285 -21.289 ]
+  Nearby ligands: 59
+
+Binding Site 394:
+  Residue: CYS 10
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [  1.378  -5.545 -15.777]
+  Nearby ligands: 19
+
+Binding Site 395:
+  Residue: HIS 11
+  Coordinating atoms: ['ND1', 'NE2']
+  Coordination number: 19
+  Center coordinates: [  4.011    1.6135 -13.257 ]
+  Nearby ligands: 19
+
+Binding Site 396:
+  Residue: CYS 12
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [ -0.254  -5.444 -11.962]
+  Nearby ligands: 19
+
+Binding Site 397:
+  Residue: ASP 15
+  Coordinating atoms: ['OD1', 'OD2']
+  Coordination number: 24
+  Center coordinates: [  3.183  -10.3095  -5.491 ]
+  Nearby ligands: 24
+
+Binding Site 398:
+  Residue: GLU 17
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 31
+  Center coordinates: [  7.2489996  -12.3355       0.94850004]
+  Nearby ligands: 31
+
+Binding Site 399:
+  Residue: HIS 22
+  Coordinating atoms: ['ND1', 'NE2']
+  Coordination number: 77
+  Center coordinates: [ 12.5529995 -14.257999  -19.5085   ]
+  Nearby ligands: 77
+
+Binding Site 400:
+  Residue: ASP 23
+  Coordinating atoms: ['OD1', 'OD2']
+  Coordination number: 53
+  Center coordinates: [ 15.259   -8.512  -22.7535]
+  Nearby ligands: 53
+
+Binding Site 401:
+  Residue: GLU 25
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 57
+  Center coordinates: [ 11.8965    -4.148    -20.029999]
+  Nearby ligands: 57
+
+Binding Site 402:
+  Residue: CYS 28
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [  2.491  -8.307 -12.969]
+  Nearby ligands: 19
+
+Binding Site 403:
+  Residue: CYS 32
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [  2.741  -9.25  -16.834]
+  Nearby ligands: 19
+
+Binding Site 404:
+  Residue: GLU 34
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 39
+  Center coordinates: [  7.668 -18.604 -17.659]
+  Nearby ligands: 39
+
+Binding Site 405:
+  Residue: HIS 36
+  Coordinating atoms: ['ND1', 'NE2']
+  Coordination number: 76
+  Center coordinates: [  0.84900004 -11.774      -19.738499  ]
+  Nearby ligands: 76
+
+Binding Site 406:
+  Residue: GLU 40
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 58
+  Center coordinates: [  0.0965 -17.9125 -15.1025]
+  Nearby ligands: 58
+
+Binding Site 407:
+  Residue: CYS 42
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [ -1.338  -8.403 -14.78 ]
+  Nearby ligands: 19
+
+Binding Site 408:
+  Residue: ASP 46
+  Coordinating atoms: ['OD1', 'OD2']
+  Coordination number: 35
+  Center coordinates: [ -8.179   -1.3775 -13.61  ]
+  Nearby ligands: 35
+
+Binding Site 409:
+  Residue: CYS 47
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [ -2.419  -4.613 -16.349]
+  Nearby ligands: 19
+
+Binding Site 410:
+  Residue: HIS 48
+  Coordinating atoms: ['ND1', 'NE2']
+  Coordination number: 58
+  Center coordinates: [ -9.007      -4.3485003 -19.592499 ]
+  Nearby ligands: 58
+
+Binding Site 411:
+  Residue: CYS 49
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [ -0.519  -7.463 -18.744]
+  Nearby ligands: 19
+
+Binding Site 412:
+  Residue: GLU 50
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 61
+  Center coordinates: [  2.429   -9.4065 -24.4165]
+  Nearby ligands: 61
+
+Binding Site 413:
+  Residue: GLU 2
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 17
+  Center coordinates: [ 4.1635  1.969  -5.781 ]
+  Nearby ligands: 17
+
+Binding Site 414:
+  Residue: CYS 5
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [  4.961  -6.212 -15.756]
+  Nearby ligands: 19
+
+Binding Site 415:
+  Residue: CYS 7
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [  3.187  -7.259 -20.558]
+  Nearby ligands: 19
+
+Binding Site 416:
+  Residue: ASP 9
+  Coordinating atoms: ['OD1', 'OD2']
+  Coordination number: 56
+  Center coordinates: [ -1.6595001    0.80450004 -20.598     ]
+  Nearby ligands: 56
+
+Binding Site 417:
+  Residue: CYS 10
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [  1.109  -5.437 -16.131]
+  Nearby ligands: 19
+
+Binding Site 418:
+  Residue: HIS 11
+  Coordinating atoms: ['ND1', 'NE2']
+  Coordination number: 28
+  Center coordinates: [  1.015    1.5125 -11.613 ]
+  Nearby ligands: 28
+
+Binding Site 419:
+  Residue: CYS 12
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [ -0.859  -5.337 -12.404]
+  Nearby ligands: 19
+
+Binding Site 420:
+  Residue: ASP 15
+  Coordinating atoms: ['OD1', 'OD2']
+  Coordination number: 48
+  Center coordinates: [ 4.676  -6.995  -3.2265]
+  Nearby ligands: 48
+
+Binding Site 421:
+  Residue: GLU 17
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 37
+  Center coordinates: [  8.441  -11.3125   1.387 ]
+  Nearby ligands: 37
+
+Binding Site 422:
+  Residue: HIS 22
+  Coordinating atoms: ['ND1', 'NE2']
+  Coordination number: 73
+  Center coordinates: [ 12.945 -13.932 -19.631]
+  Nearby ligands: 73
+
+Binding Site 423:
+  Residue: ASP 23
+  Coordinating atoms: ['OD1', 'OD2']
+  Coordination number: 56
+  Center coordinates: [ 14.9345   -10.938    -21.905998]
+  Nearby ligands: 56
+
+Binding Site 424:
+  Residue: GLU 25
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 55
+  Center coordinates: [ 12.563499  -5.6505   -20.467499]
+  Nearby ligands: 55
+
+Binding Site 425:
+  Residue: CYS 28
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [  2.187  -8.12  -13.263]
+  Nearby ligands: 19
+
+Binding Site 426:
+  Residue: CYS 32
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [  2.558  -9.121 -17.14 ]
+  Nearby ligands: 19
+
+Binding Site 427:
+  Residue: GLU 34
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 66
+  Center coordinates: [  9.554    -18.296501 -19.585   ]
+  Nearby ligands: 66
+
+Binding Site 428:
+  Residue: HIS 36
+  Coordinating atoms: ['ND1', 'NE2']
+  Coordination number: 76
+  Center coordinates: [  0.787    -11.721001 -20.0545  ]
+  Nearby ligands: 76
+
+Binding Site 429:
+  Residue: GLU 40
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 63
+  Center coordinates: [ -0.39650002 -19.305      -16.2035    ]
+  Nearby ligands: 63
+
+Binding Site 430:
+  Residue: CYS 42
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [ -1.562  -8.397 -15.256]
+  Nearby ligands: 19
+
+Binding Site 431:
+  Residue: ASP 46
+  Coordinating atoms: ['OD1', 'OD2']
+  Coordination number: 35
+  Center coordinates: [ -8.464001  -1.2865   -13.932   ]
+  Nearby ligands: 35
+
+Binding Site 432:
+  Residue: CYS 47
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [ -2.697  -4.611 -16.784]
+  Nearby ligands: 19
+
+Binding Site 433:
+  Residue: HIS 48
+  Coordinating atoms: ['ND1', 'NE2']
+  Coordination number: 29
+  Center coordinates: [ -5.2904997  -1.7155001 -21.8605   ]
+  Nearby ligands: 29
+
+Binding Site 434:
+  Residue: CYS 49
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [ -0.746  -7.366 -19.131]
+  Nearby ligands: 19
+
+Binding Site 435:
+  Residue: GLU 50
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 33
+  Center coordinates: [  0.54150003 -11.610001   -25.0585    ]
+  Nearby ligands: 33
+
+Binding Site 436:
+  Residue: GLU 2
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 27
+  Center coordinates: [ 6.193      6.1254997 -8.91     ]
+  Nearby ligands: 27
+
+Binding Site 437:
+  Residue: CYS 5
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [  4.721  -6.271 -15.395]
+  Nearby ligands: 19
+
+Binding Site 438:
+  Residue: CYS 7
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [  3.065  -7.024 -20.247]
+  Nearby ligands: 19
+
+Binding Site 439:
+  Residue: ASP 9
+  Coordinating atoms: ['OD1', 'OD2']
+  Coordination number: 42
+  Center coordinates: [ -1.4035001   -0.91400003 -23.029     ]
+  Nearby ligands: 42
+
+Binding Site 440:
+  Residue: CYS 10
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [  0.804  -5.484 -15.683]
+  Nearby ligands: 19
+
+Binding Site 441:
+  Residue: HIS 11
+  Coordinating atoms: ['ND1', 'NE2']
+  Coordination number: 26
+  Center coordinates: [  2.638    0.69   -10.9665]
+  Nearby ligands: 26
+
+Binding Site 442:
+  Residue: CYS 12
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [ -1.107  -6.145 -11.85 ]
+  Nearby ligands: 19
+
+Binding Site 443:
+  Residue: ASP 15
+  Coordinating atoms: ['OD1', 'OD2']
+  Coordination number: 25
+  Center coordinates: [ 7.67      -7.1555004 -1.6470001]
+  Nearby ligands: 25
+
+Binding Site 444:
+  Residue: GLU 17
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 21
+  Center coordinates: [11.5535    -8.87       1.7014999]
+  Nearby ligands: 21
+
+Binding Site 445:
+  Residue: HIS 22
+  Coordinating atoms: ['ND1', 'NE2']
+  Coordination number: 63
+  Center coordinates: [ 11.8575   -15.5395   -17.845001]
+  Nearby ligands: 63
+
+Binding Site 446:
+  Residue: ASP 23
+  Coordinating atoms: ['OD1', 'OD2']
+  Coordination number: 57
+  Center coordinates: [ 15.5205 -10.865  -22.521 ]
+  Nearby ligands: 57
+
+Binding Site 447:
+  Residue: GLU 25
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 58
+  Center coordinates: [ 12.078501   -4.5620003 -20.1545   ]
+  Nearby ligands: 58
+
+Binding Site 448:
+  Residue: CYS 28
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [  2.05   -8.484 -13.106]
+  Nearby ligands: 19
+
+Binding Site 449:
+  Residue: CYS 32
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [  2.392  -9.1   -17.019]
+  Nearby ligands: 19
+
+Binding Site 450:
+  Residue: GLU 34
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 61
+  Center coordinates: [  9.571 -17.716 -20.396]
+  Nearby ligands: 61
+
+Binding Site 451:
+  Residue: HIS 36
+  Coordinating atoms: ['ND1', 'NE2']
+  Coordination number: 76
+  Center coordinates: [  0.6975 -11.4865 -20.1405]
+  Nearby ligands: 76
+
+Binding Site 452:
+  Residue: GLU 40
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 63
+  Center coordinates: [ -0.15349999 -18.3535     -16.1805    ]
+  Nearby ligands: 63
+
+Binding Site 453:
+  Residue: CYS 42
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [ -1.721  -8.691 -15.118]
+  Nearby ligands: 19
+
+Binding Site 454:
+  Residue: ASP 46
+  Coordinating atoms: ['OD1', 'OD2']
+  Coordination number: 20
+  Center coordinates: [ -7.0015     -4.0690002 -11.489    ]
+  Nearby ligands: 20
+
+Binding Site 455:
+  Residue: CYS 47
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [ -3.004  -4.839 -16.302]
+  Nearby ligands: 19
+
+Binding Site 456:
+  Residue: HIS 48
+  Coordinating atoms: ['ND1', 'NE2']
+  Coordination number: 55
+  Center coordinates: [ -9.4825    -4.3105   -18.998001]
+  Nearby ligands: 55
+
+Binding Site 457:
+  Residue: CYS 49
+  Coordinating atoms: ['SG']
+  Coordination number: 19
+  Center coordinates: [ -0.88   -7.238 -18.871]
+  Nearby ligands: 19
+
+Binding Site 458:
+  Residue: GLU 50
+  Coordinating atoms: ['OE1', 'OE2']
+  Coordination number: 58
+  Center coordinates: [  2.4229999  -8.5365    -24.672    ]
+  Nearby ligands: 58
+

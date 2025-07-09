@@ -26,7 +26,7 @@ from ..brownian_simulation import BrownianSimulation
 class EnhancedMetalloproteinPipeline:
     """Enhanced pipeline for metalloprotein binding efficiency prediction."""
     
-    def __init__(self, config_path="config/enhanced_config.yaml"):
+    def __init__(self, config_path="config/enhanced/enhanced_config.yaml"):
         """
         Initialize enhanced pipeline.
         
@@ -88,7 +88,8 @@ class EnhancedMetalloproteinPipeline:
         
         # Step 1: Load and process PDB structure
         print("\n1. Loading and processing PDB structure...")
-        protein_structure = self.pdb_processor.load_pdb_structure(pdb_file)
+        self.pdb_processor.load_pdb(pdb_file)
+        protein_structure = self.pdb_processor.structure
         
         if protein_sequence is None:
             protein_sequence = self.pdb_processor.extract_sequence(protein_structure)

@@ -7,7 +7,7 @@ with environmental parameter coupling (temperature, pH, pressure, redox potentia
 
 import numpy as np
 from scipy.integrate import solve_ivp
-from scipy.constants import k as k_B, R, F
+from scipy.constants import k as k_B, R
 from scipy.sparse import csr_matrix, lil_matrix
 from scipy.spatial.distance import cdist
 import matplotlib.pyplot as plt
@@ -19,6 +19,9 @@ warnings.filterwarnings('ignore')
 
 class EnhancedBindingKinetics:
     """Implements the enhanced binding kinetics with environmental parameter coupling."""
+    
+    # Define Faraday constant manually (C/mol)pr
+    F = 96485.33212
     
     def __init__(self, config):
         """
@@ -32,7 +35,7 @@ class EnhancedBindingKinetics:
         self.config = config
         self.k_B = k_B  # Boltzmann constant
         self.R = R      # Gas constant
-        self.F = F      # Faraday constant
+        self.F = self.F # Faraday constant
         
         # Extract configuration parameters
         self.env_config = config['environmental_conditions']

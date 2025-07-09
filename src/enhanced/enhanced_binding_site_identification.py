@@ -288,6 +288,9 @@ class EnhancedBindingSiteIdentifier:
             if protein['similarity'] >= self.mespeus_config['similarity_threshold']:
                 # Transfer binding site information
                 transferred_sites = self._transfer_binding_sites(protein, protein_sequence)
+                # Add algorithm key to each transferred site
+                for site in transferred_sites:
+                    site['algorithm'] = 'MESPEUS'
                 binding_sites.extend(transferred_sites)
         
         return {
@@ -335,7 +338,7 @@ class EnhancedBindingSiteIdentifier:
                     'radius': cluster_radius,
                     'residues': cluster,
                     'confidence': confidence,
-                    'algorithm': 'CHED_Network'
+                    'algorithm': 'CHED'
                 })
         
         return {
@@ -349,6 +352,8 @@ class EnhancedBindingSiteIdentifier:
         if self.ml_config['ched_network']['clustering_algorithm'] == 'hierarchical':
             # Convert adjacency matrix to distance matrix
             distance_matrix = 1 - adjacency_matrix
+            # Ensure diagonal is zero
+            np.fill_diagonal(distance_matrix, 0)
             linkage_matrix = linkage(squareform(distance_matrix), method='ward')
             
             # Determine number of clusters
@@ -480,7 +485,8 @@ class EnhancedBindingSiteIdentifier:
                                 'radius': radius,
                                 'residues': cluster,
                                 'confidence': confidence,
-                                'coordination': 'tetrahedral'
+                                'coordination': 'tetrahedral',
+                                'algorithm': 'Metal3D'
                             })
         
         return sites
@@ -512,7 +518,8 @@ class EnhancedBindingSiteIdentifier:
                                         'radius': radius,
                                         'residues': cluster,
                                         'confidence': confidence,
-                                        'coordination': 'octahedral'
+                                        'coordination': 'octahedral',
+                                        'algorithm': 'Metal3D'
                                     })
         
         return sites
@@ -540,7 +547,8 @@ class EnhancedBindingSiteIdentifier:
                             'radius': radius,
                             'residues': cluster,
                             'confidence': confidence,
-                            'coordination': 'trigonal'
+                            'coordination': 'trigonal',
+                            'algorithm': 'Metal3D'
                         })
         
         return sites
@@ -626,6 +634,21 @@ class EnhancedBindingSiteIdentifier:
             quality = 0.0
         
         return quality
+    
+    def _calculate_octahedral_confidence(self, coords):
+        """Calculate confidence for octahedral arrangement based on geometric quality."""
+        if len(coords) != 6:
+            return 0.0
+        center = np.mean(coords, axis=0)
+        distances = cdist([center], coords)[0]
+        std_distance = np.std(distances)
+        mean_distance = np.mean(distances)
+        if mean_distance > 0:
+            cv_distance = std_distance / mean_distance
+            confidence = max(0, 1 - cv_distance)
+        else:
+            confidence = 0.0
+        return confidence
     
     def _identify_metal_binding_motifs(self, sequence):
         """Identify metal-binding motifs in sequence."""

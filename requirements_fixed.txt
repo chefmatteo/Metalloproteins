@@ -10,7 +10,6 @@ mdtraj>=1.9.7
 
 # Machine learning and clustering
 scikit-learn>=1.0.0
-scipy>=1.7.0
 
 # Configuration and data handling
 pyyaml>=6.0
@@ -34,38 +33,14 @@ urllib3>=1.26.0
 # Enhanced Pipeline Dependencies
 # Markov Chain and sequence analysis
 regex>=2022.0.0
-dataclasses>=0.6; python_version<"3.7"
-
-# GROMACS integration (optional)
-# gmxapi>=0.4.0  # Uncomment if GROMACS is installed
-# gromacs>=2022.0  # Uncomment if GROMACS is installed
 
 # Enhanced structural analysis
 networkx>=2.8.0
-community>=0.15  # python-louvain
-
-# Optional: Deep learning (for future enhancements)
-# torch>=1.12.0
-# torch-geometric>=2.1.0
-# transformers>=4.20.0
-
-# Optional: Advanced visualization
-# pymol-open-source>=2.5.0
-# vtk>=9.1.0
-
-# Optional: High-performance computing
-# mpi4py>=3.1.0
-# cupy-cuda11x>=11.0.0  # For GPU acceleration
+python-louvain>=0.15
 
 # Development and testing
 pytest>=7.0.0
 pytest-cov>=4.0.0
-black>=22.0.0
-flake8>=5.0.0
-
-# Documentation
-sphinx>=5.0.0
-sphinx-rtd-theme>=1.0.0
 
 # Jupyter for interactive analysis
 jupyter>=1.0.0

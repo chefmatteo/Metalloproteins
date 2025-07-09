@@ -1,5 +1,12 @@
 # Configuration file for Metalloprotein Binding Efficiency Prediction Pipeline
 
+
+
+# pdb code: 
+pdbcode: 6GV6 ``
+# can be a similar strcture first geh 
+
+
 # Environmental conditions
 temperature: 298.15  # Temperature in Kelvin (25°C)
 pressure: 1.0       # Pressure in atm
@@ -35,7 +42,7 @@ binding_site_params:
 
 # ODE solver parameters
 ode_params:
-  time_span: [0, 1000]     # seconds
+  time_span: [0, 2000]     # seconds
   method: "RK45"           # ODE solver method
   rtol: 1e-6              # Relative tolerance
   atol: 1e-8              # Absolute tolerance

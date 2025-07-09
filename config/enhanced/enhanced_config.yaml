@@ -1,5 +1,5 @@
 # Enhanced Configuration for Metalloprotein Binding Efficiency Prediction Pipeline
-
+# be aware of the format of the varaiables, should it be string or float? 
 # =============================================================================
 # ENVIRONMENTAL PARAMETERS
 # =============================================================================
@@ -9,7 +9,7 @@ environmental_conditions:
   temperature:
     initial: 298.15  # Kelvin (25°C)
     range: [273.15, 373.15]  # 0°C to 100°C
-    gradient: false  # Enable temperature gradients (true)
+    gradient: true  # Enable temperature gradients (true)
     heat_transfer:
       thermal_conductivity: 0.6  # W/m·K (water)
       specific_heat: 4186  # J/kg·K (water)
@@ -28,16 +28,16 @@ environmental_conditions:
     initial: 1.0  # atm
     range: [0.1, 100.0]  # atm
     compressibility:
-      thermal: 2.1e-4  # 1/K
-      chemical: 1e-6  # m³/mol
+      thermal: 0.00021  # 1/K
+      chemical: 0.000001  # m³/mol
   
   # Redox potential settings
   redox_potential:
     initial: 0.0  # V vs SHE
     range: [-0.5, 0.5]  # V
     buffer_system: "glutathione"  # Options: glutathione, cysteine, dithiothreitol
-    buffer_concentration: 1e-3  # M
-    redox_diffusion_coeff: 1e-9  # m²/s
+    buffer_concentration: 0.001  # M
+    redox_diffusion_coeff: 0.000000001  # m²/s
 
 # =============================================================================
 # SPATIAL DISCRETIZATION
@@ -46,16 +46,16 @@ environmental_conditions:
 spatial_discretization:
   # Reaction chamber dimensions
   chamber:
-    dimensions: [10e-6, 10e-6, 10e-6]  # 10×10×10 μm³
+    dimensions: [0.00001, 0.00001, 0.00001]  # 10×10×10 μm³
     grid_size: [10, 10, 10]  # 1000 cubes total
     boundary_conditions: "periodic"  # Options: periodic, reflective, absorbing
   
   # Cube properties
   cube:
-    volume: 1e-18  # m³ (1 μm³)
-    diffusion_time_step: 1e-12  # s (1 ps)
-    reaction_time_step: 1e-9  # s (1 ns)
-    coupling_time_step: 1e-6  # s (1 μs)
+    volume: 0.000000000000000001  # m³ (1 μm³)
+    diffusion_time_step: 0.000000000001  # s (1 ps)
+    reaction_time_step: 0.000000001  # s (1 ns)
+    coupling_time_step: 0.000001  # s (1 μs)
 
 # =============================================================================
 # METAL ION PROPERTIES
@@ -63,68 +63,68 @@ spatial_discretization:
 
 metal_ions:
   Zn2+:
-    radius: 0.74e-10  # m
-    mass: 65.38e-27  # kg
+    radius: 0.000000000074  # m
+    mass: 0.00000000000000000000000006538  # kg
     charge: 2
-    diffusion_coeff_0: 7.0e-10  # m²/s at 298K
-    activation_energy_diffusion: 15e3  # J/mol
-    activation_volume_diffusion: 1e-6  # m³/mol
-    binding_enthalpy: -50e3  # J/mol
+    diffusion_coeff_0: 0.0000000007  # m²/s at 298K
+    activation_energy_diffusion: 15000.0  # J/mol
+    activation_volume_diffusion: 0.000001  # m³/mol
+    binding_enthalpy: -50000.0  # J/mol
     pKa_effect: 0.5  # pH dependence factor
     redox_sensitivity: 0.1  # V^-1
     
   Cu2+:
-    radius: 0.73e-10
-    mass: 63.55e-27
+    radius: 0.000000000073
+    mass: 0.00000000000000000000000006355
     charge: 2
-    diffusion_coeff_0: 7.1e-10
-    activation_energy_diffusion: 16e3
-    activation_volume_diffusion: 1.2e-6
-    binding_enthalpy: -60e3
+    diffusion_coeff_0: 0.00000000071
+    activation_energy_diffusion: 16000.0
+    activation_volume_diffusion: 0.0000012
+    binding_enthalpy: -60000.0
     pKa_effect: 0.8
     redox_sensitivity: 0.2
     
   Fe2+:
-    radius: 0.78e-10
-    mass: 55.85e-27
+    radius: 0.000000000078
+    mass: 0.00000000000000000000000005585
     charge: 2
-    diffusion_coeff_0: 7.2e-10
-    activation_energy_diffusion: 14e3
-    activation_volume_diffusion: 0.8e-6
-    binding_enthalpy: -45e3
+    diffusion_coeff_0: 0.00000000072
+    activation_energy_diffusion: 14000.0
+    activation_volume_diffusion: 0.0000008
+    binding_enthalpy: -45000.0
     pKa_effect: 0.3
     redox_sensitivity: 0.15
     
   Mg2+:
-    radius: 0.72e-10
-    mass: 24.31e-27
+    radius: 0.000000000072
+    mass: 0.00000000000000000000000002431
     charge: 2
-    diffusion_coeff_0: 7.0e-10
-    activation_energy_diffusion: 13e3
-    activation_volume_diffusion: 0.6e-6
-    binding_enthalpy: -30e3
+    diffusion_coeff_0: 0.0000000007
+    activation_energy_diffusion: 13000.0
+    activation_volume_diffusion: 0.0000006
+    binding_enthalpy: -30000.0
     pKa_effect: 0.1
     redox_sensitivity: 0.05
     
   Ca2+:
-    radius: 1.00e-10
-    mass: 40.08e-27
+    radius: 0.0000000001
+    mass: 0.00000000000000000000000004008
     charge: 2
-    diffusion_coeff_0: 7.9e-10
-    activation_energy_diffusion: 12e3
-    activation_volume_diffusion: 0.5e-6
-    binding_enthalpy: -25e3
+    diffusion_coeff_0: 0.00000000079
+    activation_energy_diffusion: 12000.0
+    activation_volume_diffusion: 0.0000005
+    binding_enthalpy: -25000.0
     pKa_effect: 0.05
     redox_sensitivity: 0.02
     
   Mn2+:
-    radius: 0.83e-10
-    mass: 54.94e-27
+    radius: 0.000000000083
+    mass: 0.00000000000000000000000005494
     charge: 2
-    diffusion_coeff_0: 6.9e-10
-    activation_energy_diffusion: 15e3
-    activation_volume_diffusion: 0.9e-6
-    binding_enthalpy: -40e3
+    diffusion_coeff_0: 0.00000000069
+    activation_energy_diffusion: 15000.0
+    activation_volume_diffusion: 0.0000009
+    binding_enthalpy: -40000.0
     pKa_effect: 0.4
     redox_sensitivity: 0.12
 

@@ -22,7 +22,7 @@ from pathlib import Path
 sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 
 from src.pdb_processor import PDBProcessor
-from src.binding_kinetics import BindingKinetics
+from src.basic.binding_kinetics import BindingKinetics
 from src.brownian_simulation import BrownianSimulation
 
 class MetalloproteinPipeline:

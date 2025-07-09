@@ -14,17 +14,35 @@ class PDBProcessor:
     """Process PDB files and identify metal binding sites."""
     
     def __init__(self):
-        self.parser = PDB.PDBParser(QUIET=True)
+        self.pdb_parser = PDB.PDBParser(QUIET=True)
+        self.mmcif_parser = PDB.MMCIFParser(QUIET=True)
         self.structure = None
         self.binding_sites = []
         
-    def load_pdb(self, pdb_file):
-        """Load PDB file and extract structure information."""
+    def load_pdb(self, structure_file):
+        """Load PDB or mmCIF file and extract structure information."""
         try:
-            self.structure = self.parser.get_structure('protein', pdb_file)
+            # Determine file type based on extension
+            if structure_file.lower().endswith(('.cif', '.mmcif')):
+                # Use MMCIFParser for .cif files
+                self.structure = self.mmcif_parser.get_structure('protein', structure_file)
+                print(f"Loaded mmCIF structure: {structure_file}")
+            elif structure_file.lower().endswith('.pdb'):
+                # Use PDBParser for .pdb files
+                self.structure = self.pdb_parser.get_structure('protein', structure_file)
+                print(f"Loaded PDB structure: {structure_file}")
+            else:
+                # Try both parsers as fallback
+                try:
+                    self.structure = self.mmcif_parser.get_structure('protein', structure_file)
+                    print(f"Loaded structure as mmCIF: {structure_file}")
+                except:
+                    self.structure = self.pdb_parser.get_structure('protein', structure_file)
+                    print(f"Loaded structure as PDB: {structure_file}")
+            
             return True
         except Exception as e:
-            print(f"Error loading PDB file: {e}")
+            print(f"Error loading structure file: {e}")
             return False
     
     def identify_metal_binding_sites(self, distance_threshold=3.0):
@@ -53,12 +71,16 @@ class PDBProcessor:
                         )
                         
                         if len(nearby_ligands) >= 2:  # At least 2 coordinating groups
+                            center = self._calculate_binding_center(coord_atoms)
                             binding_site = {
                                 'residue': residue,
                                 'coordinating_atoms': coord_atoms,
                                 'nearby_ligands': nearby_ligands,
-                                'center': self._calculate_binding_center(coord_atoms),
-                                'coordination_number': len(nearby_ligands)
+                                'center': center,
+                                'coordination_number': len(nearby_ligands),
+                                'radius': self._calculate_binding_radius(coord_atoms, center),
+                                'coordinating_residues': [residue.get_resname() + str(residue.get_id()[1])],
+                                'residues': [residue.get_id()[1]]
                             }
                             binding_sites.append(binding_site)
         
@@ -118,6 +140,15 @@ class PDBProcessor:
         
         coords = np.array([atom.get_coord() for atom in coord_atoms])
         return np.mean(coords, axis=0)
+    
+    def _calculate_binding_radius(self, coord_atoms, center):
+        """Calculate the radius of the binding site."""
+        if not coord_atoms or center is None:
+            return 2.0  # Default radius
+        
+        # Calculate average distance from center to coordinating atoms
+        distances = [np.linalg.norm(atom.get_coord() - center) for atom in coord_atoms]
+        return np.mean(distances) if distances else 2.0
     
     def get_binding_site_characteristics(self):
         """Calculate characteristics of identified binding sites."""

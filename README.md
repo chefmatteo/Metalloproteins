@@ -443,6 +443,13 @@ For questions and support:
 - Check the documentation in the `docs/` folder
 - Run the example scripts for usage demonstrations
 
+## Differences between CHARMM-GUI and this repository: 
+- CHARMM-GUI:
+    - GUI-driven, multi-platform input generation 
+    - Advance system preparation (mutation, glycosylation, ligand parameterization)
+    - Visualization using JSmol
+    - High-throughput, automation, and enhanced sampling support
+
 ---
 
 **The Enhanced Metalloprotein Binding Efficiency Prediction Pipeline** - Making metalloprotein analysis more accurate and comprehensive than ever before! 🧬⚗️🔬 
