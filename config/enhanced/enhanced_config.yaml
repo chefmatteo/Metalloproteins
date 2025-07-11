@@ -319,3 +319,23 @@ output:
     save_intermediate: true
     compression: true
     backup: true 
+
+# =============================================================================
+# Exepected output from the pipeline: 
+# true implies it should be shown in the output, false implies it should not be shown in the output
+# the output should be in the form of a dictionary, with the key being the name of the output and the value being a boolean
+
+
+# 1. Trajectory files: 
+# 2. Binding sites: 
+# 3. Binding efficiency: 
+# 4. Binding kinetics: 
+# 5. Binding site prediction: 
+
+# =============================================================================
+user_defined_output: 
+  trajectory_files: true
+  binding_sites: false
+  binding_efficiency: false
+  binding_kinetics: false
+  binding_site_prediction: false
