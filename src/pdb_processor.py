@@ -6,7 +6,8 @@ This module handles PDB file parsing, structure analysis, and metal binding site
 
 import numpy as np
 from Bio import PDB
-from Bio.PDB import *
+from Bio.PDB.PDBParser import PDBParser
+from Bio.PDB.MMCIFParser import MMCIFParser
 import warnings
 warnings.filterwarnings('ignore')
 
@@ -14,8 +15,8 @@ class PDBProcessor:
     """Process PDB files and identify metal binding sites."""
     
     def __init__(self):
-        self.pdb_parser = PDB.PDBParser(QUIET=True)
-        self.mmcif_parser = PDB.MMCIFParser(QUIET=True)
+        self.pdb_parser = PDBParser(QUIET=True)
+        self.mmcif_parser = MMCIFParser(QUIET=True)
         self.structure = None
         self.binding_sites = []
         
@@ -115,7 +116,8 @@ class PDBProcessor:
         """Find nearby residues that could coordinate the same metal ion."""
         nearby = []
         
-        for model in self.structure:
+        for model in self.structure if self.structure else []: # it implies that if self.structure is not none, then use self.structure, other wise use []
+            # [] is a list of empty lists
             for chain in model:
                 for other_residue in chain:
                     if other_residue != residue:
@@ -226,7 +228,7 @@ class PDBProcessor:
         accessible = True
         
         # Check if binding site is buried or exposed
-        for model in self.structure:
+        for model in self.structure if self.structure else []:
             for chain in model:
                 for residue in chain:
                     for atom in residue:

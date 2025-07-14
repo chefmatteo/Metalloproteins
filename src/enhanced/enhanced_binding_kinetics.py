@@ -465,12 +465,16 @@ class EnhancedBindingKinetics:
             }
         }
         
+        # Ensure outputs are always arrays for zipping, even if only one ion
+        free_ion_means = np.atleast_1d(np.mean(free_ions, axis=0))
+        bound_ion_sums = np.atleast_1d(np.sum(bound_ions, axis=0))
+        
         return {
             'overall_efficiency': overall_efficiency,
             'cube_efficiencies': cube_efficiencies,
             'environmental_analysis': env_analysis,
-            'final_free_concentrations': dict(zip(metal_ions, np.mean(free_ions, axis=0))),
-            'final_bound_concentrations': dict(zip(metal_ions, np.sum(bound_ions, axis=0))),
+            'final_free_concentrations': dict(zip(metal_ions, free_ion_means)),
+            'final_bound_concentrations': dict(zip(metal_ions, bound_ion_sums)),
             'spatial_data': {
                 'free_ions': free_ions,
                 'bound_ions': bound_ions,

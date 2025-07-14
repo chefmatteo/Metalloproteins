@@ -42,16 +42,12 @@ if (results_dir / "brownian_motion.json").exists():
     axes[0, 1].grid(True, alpha=0.3)
 
 # 3. Environmental parameter effects
-axes[1, 0].text(0.5, 0.5, 'Environmental
-Parameter Analysis
-(see comprehensive_report.md)', 
+axes[1, 0].text(0.5, 0.5, 'Environmental\nParameter Analysis\n(see comprehensive_report.md)', 
                 ha='center', va='center', transform=axes[1, 0].transAxes, fontsize=12)
 axes[1, 0].set_title('Environmental Effects')
 
 # 4. Spatial distribution
-axes[1, 1].text(0.5, 0.5, 'Spatial Distribution
-Analysis
-(1000-cube model)', 
+axes[1, 1].text(0.5, 0.5, 'Spatial Distribution\nAnalysis\n(1000-cube model)', 
                 ha='center', va='center', transform=axes[1, 1].transAxes, fontsize=12)
 axes[1, 1].set_title('Spatial Analysis')
 
